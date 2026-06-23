@@ -1,26 +1,42 @@
-# HK Job Watcher (cloud / always-on)
+# HK Job Watcher (cloud / always-on, react-to-star)
 
-Scrapes ~17 employers daily for **Hong Kong early-career (intern / graduate) roles**,
-filters + tags data/tech, diffs against yesterday, and posts **new** roles to a Discord/Slack
-webhook. Runs on GitHub Actions at **08:00 Hong Kong time** every day — no laptop required.
+Scrapes ~17 employers daily for **Hong Kong early-career (intern / graduate) roles**, filters +
+tags data/tech, and posts each **new** role as its own **Discord embed card** with reactions:
+
+- **✅ interested** → forwarded to **#starred-jobs** + tracker status `interested`
+- **📌 applied** → forwarded to **#starred-jobs** + tracker status `applied`
+- **❌ skip** → tracker status `skip`, never shown again
+
+Runs on GitHub Actions — **no laptop required**.
+
+## How it works (two workflows, serverless)
+- **`job-watch.yml`** — daily 08:00 HKT: discover → dedup → post embeds + pre-add ✅/📌/❌ →
+  record `message_id`s in `_watcher_state.json` `pending` → update tracker → commit back.
+- **`reaction-poll.yml`** — every 30 min: read reactions on `pending` messages, forward
+  interested/applied to `#starred-jobs`, update tracker, drop handled/stale → commit back.
 
 ## One-time setup
-1. Create a GitHub repo (private is fine) and push this folder to it.
-2. In the repo: **Settings → Secrets and variables → Actions → New repository secret**
-   - Name: `WATCHER_WEBHOOK`
-   - Value: your Discord (or Slack) webhook URL
-3. Open the **Actions** tab → enable workflows → run **HK Job Watcher** once via
-   **Run workflow** to confirm it posts to your channel.
+1. **Create a Discord bot:** discord.com/developers/applications → New Application → **Bot** →
+   Reset Token → copy it. Under **Privileged Gateway Intents** nothing special is needed
+   (we use REST, not the gateway).
+2. **Invite the bot:** OAuth2 → URL Generator → scope **`bot`** → permissions: *View Channels,
+   Send Messages, Embed Links, Read Message History, Add Reactions* → open the URL, add to your server.
+3. **Channels:** create **`#starred-jobs`**; pick your alerts channel. Enable Developer Mode
+   (User Settings → Advanced) → right-click each channel → **Copy Channel ID**.
+4. **Configure:**
+   - GitHub repo → Settings → Secrets and variables → Actions → new secret **`DISCORD_BOT_TOKEN`**.
+   - Put the two channel IDs in **`bot_config.json`** (`alerts_channel_id`, `starred_channel_id`).
+5. Actions tab → run **HK Job Watcher** once to post the current roles as cards.
 
-That's it. After that it runs daily on its own and commits the updated
-`_watcher_state.json` + `applications_tracker.csv` + `JOB_TRACKER.md` back to the repo.
+The old `WATCHER_WEBHOOK` secret is no longer used and can be deleted.
 
 ## Files
-- `_daily_job_watcher.py` — the watcher (reads webhook from the `WATCHER_WEBHOOK` env secret).
-- `.github/workflows/job-watch.yml` — daily schedule + Playwright setup + state persistence.
-- `applications_tracker.csv` — your living pipeline; edit the **status** column.
-- `JOB_TRACKER.md` — readable dashboard, regenerated each run.
+- `watcher_lib.py` — shared Discord-bot REST + tracker/state IO (no Playwright).
+- `_daily_job_watcher.py` — discovery + posts embeds with reactions.
+- `_reaction_poller.py` — reads reactions, forwards stars, updates tracker.
+- `bot_config.json` — channel IDs (non-secret).
+- `applications_tracker.csv` / `JOB_TRACKER.md` — your pipeline + dashboard.
 
-## Local use
-`python _daily_job_watcher.py --dry`  → preview without sending
-`python _daily_job_watcher.py --seed` → reset the baseline silently
+## Local testing
+Put a local `_watcher_config.json` (gitignored) with `{"bot_token":"...","alerts_channel_id":"...","starred_channel_id":"..."}`, then:
+`python _daily_job_watcher.py --dry`  · `python _daily_job_watcher.py` · `python _reaction_poller.py`

@@ -1,18 +1,21 @@
 """
 Daily Hong Kong early-career (intern / graduate) job watcher -- MAX BREADTH.
 Multi-ATS fetch -> filter to HK student/intern -> tag data/tech -> diff vs yesterday
--> post NEW roles to Discord/Slack -> maintain a local application tracker.
+-> post each NEW role as a Discord EMBED (bot) with ✅/📌/❌ reactions pre-added
+-> record message_id in state["pending"] for the reaction poller -> update tracker.
 
 Source types: render (Playwright) | jpmc (Oracle) | workday | greenhouse | amazon
               | lever | ashby | smartrecruiters
 
-Webhook: _watcher_config.json {"webhook_url": "..."}  OR env WATCHER_WEBHOOK (for CI).
-Run:   pythonw _daily_job_watcher.py        (scheduled / CI)
-       python  _daily_job_watcher.py --dry  (print only)
-       python  _daily_job_watcher.py --seed (save baseline silently, no message)
+Auth: bot token via env DISCORD_BOT_TOKEN (CI secret) or local _watcher_config.json {"bot_token"}.
+Channels: bot_config.json {"alerts_channel_id", ...}.
+Run:   python _daily_job_watcher.py          (post new roles)
+       python _daily_job_watcher.py --dry     (print only, no posting/state change)
+       python _daily_job_watcher.py --seed    (baseline silently: tracker + seen, no posting)
 """
-import os, re, json, sys, csv, datetime, urllib.request, urllib.parse
+import os, re, sys, time, datetime, json, urllib.request, urllib.parse
 from playwright.sync_api import sync_playwright
+import watcher_lib as wl
 
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -21,20 +24,15 @@ except Exception:
     pass
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(ROOT, "_scrape_out"); os.makedirs(OUT, exist_ok=True)
-STATE_FILE = os.path.join(ROOT, "_watcher_state.json")
-CONFIG_FILE = os.path.join(ROOT, "_watcher_config.json")
-LOG_FILE = os.path.join(OUT, "watcher.log")
-TRACKER_CSV = os.path.join(ROOT, "applications_tracker.csv")
-TRACKER_MD = os.path.join(ROOT, "JOB_TRACKER.md")
+os.makedirs(os.path.join(ROOT, "_scrape_out"), exist_ok=True)
 DRY = "--dry" in sys.argv
 SEED = "--seed" in sys.argv
+log = wl.log
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36")
 
 SOURCES = [
-    # rendered JS boards
     {"name": "Jefferies",      "type": "render",
      "url": "https://jefferies.tal.net/candidate/jobboard/vacancy/2/adv"},
     {"name": "Morgan Stanley", "type": "render",
@@ -45,12 +43,9 @@ SOURCES = [
      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=searchResults&SearchType=linkquery&LinkID=6168"},
     {"name": "HSBC",           "type": "render",
      "url": "https://mycareer.hsbc.com/en_GB/external/SearchJobs/?searchByCity=Hong+Kong"},
-    # Oracle CE API
     {"name": "JPMorgan",       "type": "jpmc"},
-    # Workday cxs API
     {"name": "Citi",           "type": "workday", "host": "citi", "wd": "wd5", "site": "2"},
     {"name": "Bank of America", "type": "workday", "host": "ghr", "wd": "wd1", "site": "lateral-us"},
-    # Greenhouse boards
     {"name": "Jane Street",    "type": "greenhouse", "token": "janestreet"},
     {"name": "IMC",            "type": "greenhouse", "token": "imc"},
     {"name": "Point72",        "type": "greenhouse", "token": "point72"},
@@ -59,9 +54,8 @@ SOURCES = [
     {"name": "Squarepoint",    "type": "greenhouse", "token": "squarepointcapital"},
     {"name": "Stripe",         "type": "greenhouse", "token": "stripe"},
     {"name": "AQR",            "type": "greenhouse", "token": "aqr"},
-    # Amazon.jobs API
     {"name": "Amazon",         "type": "amazon"},
-    # --- generic adapters ready for future tokens (Lever/Ashby/SmartRecruiters) ---
+    # generic adapters ready for future tokens:
     # {"name": "X", "type": "lever", "token": "..."},
     # {"name": "Y", "type": "ashby", "token": "..."},
     # {"name": "Z", "type": "smartrecruiters", "token": "..."},
@@ -78,26 +72,10 @@ DATA_RE = re.compile(r"\bdata\b|analytic|software|engineer|technolog|quant|machi
 LINK_RE = re.compile(r"(job|vacancy|intern|analyst|requisition|position|opp/|/roles/)", re.I)
 JUNK_RE = re.compile(r"^(share|show more|save|apply|sign in|register|back|view all|see more|"
                      r"next|previous|home|filter)\b", re.I)
-# render pages that are roughly location-scoped but still leak other cities/UI noise
 HK_IMPLIED = {"UBS", "HSBC"}
 OTHER_CITY_RE = re.compile(r"\b(sydney|melbourne|london|singapore|tokyo|new york|shanghai|beijing|"
                            r"mumbai|paris|frankfurt|zurich|geneva|dubai|seoul|sao paulo|toronto|"
                            r"chicago|bangalore|manila|jakarta|kuala lumpur|taipei|osaka)\b", re.I)
-
-
-def log(msg):
-    line = f"{datetime.datetime.now().isoformat(timespec='seconds')}  {msg}"
-    print(line)
-    with open(LOG_FILE, "a", encoding="utf-8") as f:
-        f.write(line + "\n")
-
-
-def load_json(path, default):
-    try:
-        with open(path, encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return default
 
 
 def http_get(url):
@@ -139,7 +117,7 @@ def fetch_render(page, src):
             continue
         if not t or len(t) > 140 or not LINK_RE.search(t + " " + h):
             continue
-        if h.startswith("#") or JUNK_RE.search(t):   # skip UI buttons (Share / Show more / #0)
+        if h.startswith("#") or JUNK_RE.search(t):
             continue
         if h.startswith("/"):
             h = base + h
@@ -226,102 +204,23 @@ def is_hk_student(e):
     blob = f"{t} {e['location']}"
     if HK_RE.search(blob):
         return True
-    # location-scoped render pages: accept unless the title names a different city
     if e["source"] in HK_IMPLIED and not OTHER_CITY_RE.search(blob):
         return True
     return False
 
 
-# ---------------- application tracker ----------------
-TRACK_FIELDS = ["key", "date_found", "source", "title", "location", "data_tech", "status", "url"]
-
-def load_tracker():
-    rows = {}
-    if os.path.exists(TRACKER_CSV):
-        with open(TRACKER_CSV, encoding="utf-8") as f:
-            for r in csv.DictReader(f):
-                rows[r["key"]] = r
-    return rows
-
-def update_tracker(entries, today):
-    rows = load_tracker()
-    added = 0
-    for e in entries:
-        if e["_key"] not in rows:
-            rows[e["_key"]] = {"key": e["_key"], "date_found": today, "source": e["source"],
-                               "title": e["title"], "location": e.get("location", ""),
-                               "data_tech": "yes" if e["data_tech"] else "no",
-                               "status": "new", "url": e["url"]}
-            added += 1
-    with open(TRACKER_CSV, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=TRACK_FIELDS); w.writeheader()
-        for r in rows.values():
-            w.writerow({k: r.get(k, "") for k in TRACK_FIELDS})
-    # markdown dashboard
-    vals = list(rows.values())
-    dt = [r for r in vals if r.get("data_tech") == "yes"]
-    other = [r for r in vals if r.get("data_tech") != "yes"]
-    def line(r):
-        return (f"- [{r['title']}]({r['url']}) — **{r['source']}** · {r.get('location','') or 'HK'} · "
-                f"_{r.get('status','new')}_ (found {r['date_found']})")
-    md = [f"# 📋 Job Tracker — updated {today}",
-          f"\nTotal tracked: **{len(vals)}**  ·  🟢 Data/Tech: **{len(dt)}**  ·  ⚪ Other: **{len(other)}**\n",
-          "## 🟢 Data / Tech"]
-    md += [line(r) for r in sorted(dt, key=lambda r: r["date_found"], reverse=True)] or ["_none yet_"]
-    md += ["\n## ⚪ Other early-career"]
-    md += [line(r) for r in sorted(other, key=lambda r: r["date_found"], reverse=True)] or ["_none yet_"]
-    md += ["\n---", "_Edit the **status** column in `applications_tracker.csv` to track progress:_",
-           "_new → interested → applied → interview → offer / rejected / skip_"]
-    with open(TRACKER_MD, "w", encoding="utf-8") as f:
-        f.write("\n".join(md))
-    return added, len(rows)
-
-
-def send(webhook, text):
-    if not webhook:
-        log("[warn] no webhook configured -- not sending"); return False
-    is_slack = "hooks.slack.com" in webhook
-    payload = {"text": text} if is_slack else {"content": text[:1990]}
-    req = urllib.request.Request(webhook, data=json.dumps(payload).encode("utf-8"), headers={
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) HK-Job-Watcher/1.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=20) as r:
-            log(f"[ok] webhook sent ({r.status})"); return True
-    except Exception as e:
-        log(f"[error] webhook send failed: {e}"); return False
-
-
-def chunk_send(webhook, header, blocks):
-    buf, ok = header + "\n\n", True
-    for b in blocks:
-        if len(buf) + len(b) + 2 > 1900:
-            ok = send(webhook, buf) and ok; buf = ""
-        buf += b + "\n\n"
-    if buf.strip():
-        ok = send(webhook, buf) and ok
-    return ok
-
-
-def main():
-    cfg = load_json(CONFIG_FILE, {})
-    webhook = (cfg.get("webhook_url", "").strip() or os.environ.get("WATCHER_WEBHOOK", "").strip())
-    state = load_json(STATE_FILE, {"seen": []})
-    seen = set(state.get("seen", []))
-
+def discover():
     fetchers = {"jpmc": fetch_jpmc, "workday": fetch_workday, "greenhouse": fetch_greenhouse,
                 "amazon": fetch_amazon, "lever": fetch_lever, "ashby": fetch_ashby,
                 "smartrecruiters": fetch_smartrecruiters}
-
     all_entries = []
     need_render = any(s["type"] == "render" for s in SOURCES)
-    page = browser = pw = None
+    browser = pw = page = None
     if need_render:
         pw = sync_playwright().start()
         browser = pw.chromium.launch(headless=True)
         ctx = browser.new_context(user_agent=UA, viewport={"width": 1366, "height": 1400}, locale="en-US")
         page = ctx.new_page()
-
     for src in SOURCES:
         try:
             got = fetch_render(page, src) if src["type"] == "render" else fetchers[src["type"]](src)
@@ -334,7 +233,6 @@ def main():
         browser.close()
     if pw:
         pw.stop()
-
     # de-dup with a STABLE key (source + normalized title; URLs carry rotating tokens)
     uniq, keyset = [], set()
     for e in all_entries:
@@ -343,51 +241,74 @@ def main():
         if norm and k not in keyset:
             keyset.add(k); e["_key"] = k; e["data_tech"] = bool(DATA_RE.search(e["title"]))
             uniq.append(e)
+    return uniq
 
+
+def main():
+    cfg = wl.load_bot_config()
+    token = wl.ensure_token(cfg)
+    alerts = str(cfg.get("alerts_channel_id", "")).strip()
+
+    state = wl.load_state()
+    seen = set(state.get("seen", []))
+
+    uniq = discover()
     new_roles = [e for e in uniq if e["_key"] not in seen]
     new_roles.sort(key=lambda e: (not e["data_tech"], e["source"], e["title"]))
     today = datetime.date.today().isoformat()
 
     if SEED:
-        update_tracker(uniq, today)
+        wl.update_tracker(uniq, today)
         state["seen"] = sorted(seen | {e["_key"] for e in uniq})
-        state["last_run"] = datetime.datetime.now().isoformat(timespec="seconds")
-        with open(STATE_FILE, "w", encoding="utf-8") as f:
-            json.dump(state, f, indent=2)
+        wl.save_state(state)
         log(f"[seed] baseline saved: {len(uniq)} roles, tracker populated, no message sent.")
         return
 
+    n_dt = sum(1 for e in new_roles if e["data_tech"])
     if new_roles:
-        n_dt = sum(1 for e in new_roles if e["data_tech"])
-        header = (f"**🌅 HK Internship Watch — {today}**\n"
-                  f"**{len(new_roles)} new** early-career role(s) in Hong Kong "
-                  f"({n_dt} data/tech 🟢). Tracking {len(uniq)} live.")
-        blocks = []
-        for e in new_roles:
-            tag = "🟢 DATA/TECH" if e["data_tech"] else "⚪ other"
-            loc = f" · {e['location']}" if e["location"] else ""
-            blocks.append(f"{tag} · {e['source']}{loc}\n{e['title']}\n{e['url']}")
-        log("---- message ----\n" + header + "\n\n" + "\n\n".join(blocks) + "\n----")
-        if DRY:
-            print("\n[DRY RUN] would send the above; state/tracker NOT updated."); return
-        ok = chunk_send(webhook, header, blocks)
+        header = (f"🌅 **HK Internship Watch — {today}**\n"
+                  f"**{len(new_roles)} new** role(s) ({n_dt} data/tech 🟢) · Tracking {len(uniq)} live\n"
+                  f"React on each: ✅ interested → #starred-jobs · 📌 applied · ❌ skip")
     else:
-        msg = (f"🌅 HK Internship Watch — {today}\n"
-               f"No new Hong Kong early-career roles today (tracking {len(uniq)}). Still watching.")
-        log("---- message ----\n" + msg + "\n----")
-        if DRY:
-            print("\n[DRY RUN] would send the above; state/tracker NOT updated."); return
-        ok = send(webhook, msg)
+        header = (f"🌅 **HK Internship Watch — {today}** — no new roles today "
+                  f"(tracking {len(uniq)}). Still watching.")
 
-    if ok or not new_roles:
-        add, tot = update_tracker(new_roles, today)
-        log(f"[tracker] +{add} new, {tot} total in applications_tracker.csv")
-        state["seen"] = sorted(seen | {e["_key"] for e in uniq})
-        state["last_run"] = datetime.datetime.now().isoformat(timespec="seconds")
-        with open(STATE_FILE, "w", encoding="utf-8") as f:
-            json.dump(state, f, indent=2)
-    else:
-        log("[warn] send failed -- state/tracker NOT updated; will retry next run")
+    if DRY:
+        log("[DRY] header:\n" + header)
+        for e in new_roles:
+            log(f"[DRY] would post: {e['source']} | {e['title']} | {e['url']}")
+        print(f"\n[DRY RUN] {len(new_roles)} new role(s); nothing posted, state/tracker unchanged.")
+        return
+
+    if not token or not alerts:
+        log("[error] missing DISCORD_BOT_TOKEN or alerts_channel_id -- cannot post. "
+            "Set the secret and bot_config.json."); return
+
+    # post header, then one embed per new role with reactions pre-added
+    try:
+        wl.post_text(alerts, header)
+    except Exception as ex:
+        log(f"[error] header post failed: {ex}"); return
+
+    posted = 0
+    for e in new_roles:
+        try:
+            mid = wl.post_embed(alerts, wl.make_embed({**e, "posted": today}))
+            for emo in (wl.EMOJI["interested"], wl.EMOJI["applied"], wl.EMOJI["skip"]):
+                wl.add_reaction(alerts, mid, emo); time.sleep(0.3)
+            state["pending"][str(mid)] = {"key": e["_key"], "title": e["title"], "url": e["url"],
+                                          "source": e["source"], "location": e.get("location", ""),
+                                          "data_tech": e["data_tech"], "posted": today}
+            posted += 1
+            time.sleep(0.3)
+        except Exception as ex:
+            log(f"[error] post '{e['_key']}': {repr(ex)[:140]}")
+
+    add, tot = wl.update_tracker(new_roles, today)
+    state["seen"] = sorted(seen | {e["_key"] for e in uniq})
+    wl.save_state(state)
+    log(f"[done] posted {posted}/{len(new_roles)} new; tracker +{add} ({tot} total); "
+        f"{len(state['pending'])} pending reactions")
 
 
 if __name__ == "__main__":

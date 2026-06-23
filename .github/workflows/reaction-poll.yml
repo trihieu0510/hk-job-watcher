@@ -1,19 +1,19 @@
-name: HK Job Watcher
+name: Reaction Poller
 
 on:
   schedule:
-    - cron: '0 0 * * *'      # 00:00 UTC == 08:00 Hong Kong time (UTC+8)
-  workflow_dispatch: {}        # lets you run it manually from the Actions tab
+    - cron: '*/30 * * * *'     # every 30 min; forwards ✅/📌 reactions to #starred-jobs
+  workflow_dispatch: {}
 
 permissions:
-  contents: write              # allow committing updated state + tracker back
+  contents: write
 
 concurrency:
-  group: job-watcher-shared    # shared with the reaction poller to avoid push races
+  group: job-watcher-shared    # shared with the daily watcher to avoid push races
   cancel-in-progress: false
 
 jobs:
-  watch:
+  poll:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,21 +22,16 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install Playwright + Chromium
-        run: |
-          pip install playwright
-          python -m playwright install --with-deps chromium
-
-      - name: Run watcher
+      - name: Poll reactions          # stdlib only -- no Playwright, fast
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
-        run: python _daily_job_watcher.py
+        run: python _reaction_poller.py
 
       - name: Persist state + tracker
         run: |
           git config user.name  "job-watcher-bot"
           git config user.email "bot@users.noreply.github.com"
           git add _watcher_state.json applications_tracker.csv JOB_TRACKER.md || true
-          git commit -m "watcher run $(date -u +%Y-%m-%d) [skip ci]" || echo "no changes to commit"
+          git commit -m "poll $(date -u +%Y-%m-%dT%H:%M) [skip ci]" || echo "no changes to commit"
           git pull --rebase --autostash origin main || true
           git push || echo "nothing to push"
