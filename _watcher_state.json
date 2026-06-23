@@ -23,42 +23,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1519004591448916081": {
-      "key": "Amazon|technical business developer intern, 2026 hong kong",
-      "title": "Technical Business Developer Intern, 2026 Hong Kong",
-      "url": "https://www.amazon.jobs/en/jobs/10394507/technical-business-developer-intern-2026-hong-kong",
-      "source": "Amazon",
-      "location": "Hong Kong, Hong Kong SAR, HKG",
-      "data_tech": true,
-      "posted": "2026-06-23"
-    },
-    "1519004612965699716": {
-      "key": "HSBC|gsc: financial engineering - internship",
-      "title": "GSC: Financial Engineering - Internship",
-      "url": "https://mycareer.hsbc.com/en_GB/external/PipelineDetail/GSC-Financial-Engineering-Internship/288565",
-      "source": "HSBC",
-      "location": "",
-      "data_tech": true,
-      "posted": "2026-06-23"
-    },
-    "1519004635178733723": {
-      "key": "JPMorgan|2027 commercial & investment bank - markets summer analyst program - research - hong kong",
-      "title": "2027 Commercial & Investment Bank - Markets Summer Analyst Program - Research - Hong Kong",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210747391/",
-      "source": "JPMorgan",
-      "location": "Hong Kong",
-      "data_tech": true,
-      "posted": "2026-06-23"
-    },
-    "1519004655403663443": {
-      "key": "Jefferies|2026 graduate analyst program - equity research - hong kong",
-      "title": "2026 Graduate Analyst Program - Equity Research - Hong Kong",
-      "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-84365cddb087/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB",
-      "source": "Jefferies",
-      "location": "",
-      "data_tech": true,
-      "posted": "2026-06-23"
-    },
     "1519004677088350415": {
       "key": "Jefferies|2026 information technology graduate analyst - equity technology - hong kong",
       "title": "2026 Information Technology Graduate Analyst - Equity Technology - Hong Kong",
@@ -213,5 +177,5 @@
       "posted": "2026-06-23"
     }
   },
-  "last_run": "2026-06-23T23:43:38"
+  "last_run": "2026-06-23T15:56:12"
 }
