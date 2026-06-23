@@ -1,6 +1,6 @@
 # 📋 Job Tracker — updated 2026-06-23
 
-Total **25**  ·  🟢 Data/Tech **13**  ·  ⭐ Starred/Applied **4**
+Total **26**  ·  🟢 Data/Tech **14**  ·  ⭐ Starred/Applied **4**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -22,6 +22,7 @@ Total **25**  ·  🟢 Data/Tech **13**  ·  ⭐ Starred/Applied **4**
 - 📌 [Technical Business Developer Intern, 2026 Hong Kong](https://www.amazon.jobs/en/jobs/10394507/technical-business-developer-intern-2026-hong-kong) — **Amazon** · Hong Kong, Hong Kong SAR, HKG · _applied_ (found 2026-06-23)
 -  [Artificial Intelligence (AI) Intern](https://hk.jobsdb.com/job/92890176) — **JobsDB** · Hong Kong SAR · _new_ (found 2026-06-23)
 -  [Software Engineer (C / C++ Preferred) (Fresh Graduate / IANG Holder Is Welcome)](https://hk.jobsdb.com/job/91482013) — **JobsDB** · Tsing Yi, Kwai Tsing District · _new_ (found 2026-06-23)
+-  [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _new_ (found 2026-06-23)
 
 ## ⚪ Other early-career
 -  [2027 Summer Analyst Program - Investment Banking (Hong Kong)](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1814-2027-Summer-Analyst-Program-Investment-Banking-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-06-23)
