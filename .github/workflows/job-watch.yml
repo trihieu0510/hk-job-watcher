@@ -1,0 +1,41 @@
+name: HK Job Watcher
+
+on:
+  schedule:
+    - cron: '0 0 * * *'      # 00:00 UTC == 08:00 Hong Kong time (UTC+8)
+  workflow_dispatch: {}        # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write              # allow committing updated state + tracker back
+
+concurrency:
+  group: job-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Playwright + Chromium
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Run watcher
+        env:
+          WATCHER_WEBHOOK: ${{ secrets.WATCHER_WEBHOOK }}
+        run: python _daily_job_watcher.py
+
+      - name: Persist state + tracker
+        run: |
+          git config user.name  "job-watcher-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add _watcher_state.json applications_tracker.csv JOB_TRACKER.md || true
+          git commit -m "watcher run $(date -u +%Y-%m-%d) [skip ci]" || echo "no changes to commit"
+          git push || echo "nothing to push"
