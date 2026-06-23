@@ -13,6 +13,10 @@
     "Jefferies|2026 graduate analyst program - equity research - hong kong",
     "Jefferies|2026 information technology graduate analyst - equity technology - hong kong",
     "Jefferies|2027 summer analyst program - investment banking (hong kong)",
+    "JobsDB|artificial intelligence (ai) intern",
+    "JobsDB|software engineer (c / c++ preferred) (fresh graduate / iang holder is welcome)",
+    "JobsDB|summer intern",
+    "JobsDB|trainee (focus on product development & risk management)",
     "Jump Trading|campus ai/ml researcher (spring 2026 / fall 2026)",
     "Jump Trading|campus trading team software engineer (intern)",
     "Point72|2027 point72 academy investment analyst summer internship program - hong kong",
@@ -175,7 +179,43 @@
       "location": "London, Montreal, New York, Houston, Hong Kong",
       "data_tech": false,
       "posted": "2026-06-23"
+    },
+    "1519013756351283336": {
+      "key": "JobsDB|artificial intelligence (ai) intern",
+      "title": "Artificial Intelligence (AI) Intern",
+      "url": "https://hk.jobsdb.com/job/92890176",
+      "source": "JobsDB",
+      "location": "Hong Kong SAR",
+      "data_tech": true,
+      "posted": "2026-06-23"
+    },
+    "1519013765692133438": {
+      "key": "JobsDB|software engineer (c / c++ preferred) (fresh graduate / iang holder is welcome)",
+      "title": "Software Engineer (C / C++ Preferred) (Fresh Graduate / IANG Holder Is Welcome)",
+      "url": "https://hk.jobsdb.com/job/91482013",
+      "source": "JobsDB",
+      "location": "Tsing Yi, Kwai Tsing District",
+      "data_tech": true,
+      "posted": "2026-06-23"
+    },
+    "1519013773543997511": {
+      "key": "JobsDB|summer intern",
+      "title": "Summer Intern",
+      "url": "https://hk.jobsdb.com/job/92854965",
+      "source": "JobsDB",
+      "location": "Wan Chai, Wan Chai District",
+      "data_tech": false,
+      "posted": "2026-06-23"
+    },
+    "1519013781479493694": {
+      "key": "JobsDB|trainee (focus on product development & risk management)",
+      "title": "Trainee (focus on Product Development & Risk Management)",
+      "url": "https://hk.jobsdb.com/job/92854368",
+      "source": "JobsDB",
+      "location": "Central and Western District",
+      "data_tech": false,
+      "posted": "2026-06-23"
     }
   },
-  "last_run": "2026-06-23T15:56:12"
+  "last_run": "2026-06-23T16:18:29"
 }
