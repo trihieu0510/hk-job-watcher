@@ -55,6 +55,10 @@ SOURCES = [
     {"name": "Stripe",         "type": "greenhouse", "token": "stripe"},
     {"name": "AQR",            "type": "greenhouse", "token": "aqr"},
     {"name": "Amazon",         "type": "amazon"},
+    # JobsDB (HK's main board, SEEK API) -- whole-market coverage, data/tech keywords only
+    {"name": "JobsDB",         "type": "jobsdb",
+     "keywords": ["data", "software engineer", "data analyst", "machine learning",
+                  "analytics", "quantitative", "business intelligence", "data scientist"]},
     # generic adapters ready for future tokens:
     # {"name": "X", "type": "lever", "token": "..."},
     # {"name": "Y", "type": "ashby", "token": "..."},
@@ -72,7 +76,7 @@ DATA_RE = re.compile(r"\bdata\b|analytic|software|engineer|technolog|quant|machi
 LINK_RE = re.compile(r"(job|vacancy|intern|analyst|requisition|position|opp/|/roles/)", re.I)
 JUNK_RE = re.compile(r"^(share|show more|save|apply|sign in|register|back|view all|see more|"
                      r"next|previous|home|filter)\b", re.I)
-HK_IMPLIED = {"UBS", "HSBC"}
+HK_IMPLIED = {"UBS", "HSBC", "JobsDB"}  # query is already Hong-Kong-scoped
 OTHER_CITY_RE = re.compile(r"\b(sydney|melbourne|london|singapore|tokyo|new york|shanghai|beijing|"
                            r"mumbai|paris|frankfurt|zurich|geneva|dubai|seoul|sao paulo|toronto|"
                            r"chicago|bangalore|manila|jakarta|kuala lumpur|taipei|osaka)\b", re.I)
@@ -197,6 +201,28 @@ def fetch_smartrecruiters(src):
     return out
 
 
+def fetch_jobsdb(src):
+    """JobsDB (SEEK) HK board -- run several data/tech keyword searches, HK-scoped."""
+    out = []
+    for kw in src.get("keywords", ["data"]):
+        url = ("https://hk.jobsdb.com/api/jobsearch/v5/search?siteKey=HK-Main&sourcesystem=houston"
+               f"&keywords={urllib.parse.quote(kw)}&where=Hong+Kong&page=1&pageSize=30")
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": UA, "Accept": "application/json", "seek-request-country": "HK"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                j = json.loads(r.read().decode("utf-8", "replace"))
+        except Exception as e:
+            log(f"[warn] JobsDB '{kw}': {repr(e)[:100]}"); continue
+        for x in j.get("data", []):
+            locs = x.get("locations") or []
+            loc = (locs[0].get("label") if locs else "") or "Hong Kong"
+            out.append({"title": x.get("title", ""), "location": loc,
+                        "url": f"https://hk.jobsdb.com/job/{x.get('id','')}",
+                        "source": "JobsDB"})
+    return out
+
+
 def is_hk_student(e):
     t = e["title"]
     if EXCLUDE_RE.search(t) or not ROLE_RE.search(t):
@@ -212,7 +238,7 @@ def is_hk_student(e):
 def discover():
     fetchers = {"jpmc": fetch_jpmc, "workday": fetch_workday, "greenhouse": fetch_greenhouse,
                 "amazon": fetch_amazon, "lever": fetch_lever, "ashby": fetch_ashby,
-                "smartrecruiters": fetch_smartrecruiters}
+                "smartrecruiters": fetch_smartrecruiters, "jobsdb": fetch_jobsdb}
     all_entries = []
     need_render = any(s["type"] == "render" for s in SOURCES)
     browser = pw = page = None
