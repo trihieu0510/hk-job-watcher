@@ -55,6 +55,9 @@ SOURCES = [
     {"name": "Stripe",         "type": "greenhouse", "token": "stripe"},
     {"name": "AQR",            "type": "greenhouse", "token": "aqr"},
     {"name": "Amazon",         "type": "amazon"},
+    {"name": "OKX",            "type": "greenhouse", "token": "okx"},
+    {"name": "Bybit",          "type": "greenhouse", "token": "bybit"},
+    {"name": "Lalamove",       "type": "lever",      "token": "lalamove"},
     # JobsDB (HK's main board, SEEK API) -- whole-market coverage, data/tech keywords only
     {"name": "JobsDB",         "type": "jobsdb",
      "keywords": ["data", "software engineer", "data analyst", "machine learning",
