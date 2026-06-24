@@ -1,4 +1,4 @@
-# 📋 Job Tracker — updated 2026-06-23
+# 📋 Job Tracker — updated 2026-06-24
 
 Total **26**  ·  🟢 Data/Tech **14**  ·  ⭐ Starred/Applied **4**
 
