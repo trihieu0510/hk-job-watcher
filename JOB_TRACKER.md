@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-06-26
+# 📋 Job Tracker — updated 2026-06-27
 
-Total **30**  ·  🟢 Data/Tech **16**  ·  ⭐ Starred/Applied **11**
+Total **32**  ·  🟢 Data/Tech **17**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **30**  ·  🟢 Data/Tech **16**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Intern Data Analytics (6-Month, Part-Time)](https://hk.jobsdb.com/job/92973328) — **JobsDB** · Kai Tak, Kowloon City District · _new_ (found 2026-06-27)
 -  [Business Analyst/ Junior/Trainee Analyst (NOT IT/Data)](https://hk.jobsdb.com/job/92919793) — **JobsDB** · Ngau Tau Kok, Kwun Tong District · _new_ (found 2026-06-25)
 -  [Software Engineer Intern](https://hk.jobsdb.com/job/92920157) — **JobsDB** · Central and Western District · _new_ (found 2026-06-25)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -34,6 +35,7 @@ Total **30**  ·  🟢 Data/Tech **16**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [CA Intern](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347793) — **UBS** · HK · _new_ (found 2026-06-27)
 -  [Business Analyst Intern](https://hk.jobsdb.com/job/92949605) — **JobsDB** · Kowloon Bay, Kwun Tong District · _new_ (found 2026-06-26)
 -  [2027 Summer Analyst Program - Investment Banking - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-353060751dcd/candidate/so/pm/1/pl/2/opp/1814-2027-Summer-Analyst-Program-Investment-Banking-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-06-25)
 -  [2027 Summer Analyst Program - Investment Banking (Hong Kong)](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1814-2027-Summer-Analyst-Program-Investment-Banking-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-06-23)
