@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-06-30
+# 📋 Job Tracker — updated 2026-07-01
 
-Total **32**  ·  🟢 Data/Tech **17**  ·  ⭐ Starred/Applied **11**
+Total **46**  ·  🟢 Data/Tech **19**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,8 @@ Total **32**  ·  🟢 Data/Tech **17**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [2027 Institutional Equity Division Quantitative Finance Summer Analyst / Associate Program (Hong Kong)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21270-2027-Institutional-Equity-Division-Quantitative-Finance-Summer-Analyst-Associate-Program-Hong-Kong/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
+-  [2027 Technology Summer Analyst Program (Hong Kong)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21325-2027-Technology-Summer-Analyst-Program-Hong-Kong/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
 -  [Intern Data Analytics (6-Month, Part-Time)](https://hk.jobsdb.com/job/92973328) — **JobsDB** · Kai Tak, Kowloon City District · _new_ (found 2026-06-27)
 -  [Business Analyst/ Junior/Trainee Analyst (NOT IT/Data)](https://hk.jobsdb.com/job/92919793) — **JobsDB** · Ngau Tau Kok, Kwun Tong District · _new_ (found 2026-06-25)
 -  [Software Engineer Intern](https://hk.jobsdb.com/job/92920157) — **JobsDB** · Central and Western District · _new_ (found 2026-06-25)
@@ -35,6 +37,18 @@ Total **32**  ·  🟢 Data/Tech **17**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [2027 Corporate Analyst Development Program - Summer Analyst - Hong Kong](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210753819/) — **JPMorgan** · Hong Kong · _new_ (found 2026-07-01)
+-  [2027 Human Resources Analyst Development Program - Summer Analyst - Hong Kong](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210754294/) — **JPMorgan** · Hong Kong · _new_ (found 2026-07-01)
+-  [Business Consultant, Full-Time/Intern](https://hk.jobsdb.com/job/93037768) — **JobsDB** · Tsim Sha Tsui, Yau Tsim Mong District · _new_ (found 2026-07-01)
+-  [2027 Finance Summer Analyst Program (Hong Kong)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21331-2027-Finance-Summer-Analyst-Program-Hong-Kong/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
+-  [2027 Firm Risk Management Summer Analyst Program (Hong Kong)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21329-2027-Firm-Risk-Management-Summer-Analyst-Program-Hong-Kong/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
+-  [2027 Fixed Income Division Industrial Placement / Summer Analyst Program (Hong Kong / Singapore)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21318-2027-Fixed-Income-Division-Industrial-Placement-Summer-Analyst-Program-Hong-Kong-Singapore/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
+-  [2027 Global Capital Markets Industrial Placement / Summer Analyst Program (Hong Kong)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21294-2027-Global-Capital-Markets-Industrial-Placement-Summer-Analyst-Program-Hong-Kong/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
+-  [2027 Institutional Equity Division Business Control Unit Industrial Placement Program (Hong Kong)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21716-2027-Institutional-Equity-Division-Business-Control-Unit-Industrial-Placement-Program-Hong-Kong/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
+-  [2027 Institutional Equity Division Industrial Placement / Summer Analyst Program (Hong Kong / Singapore)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21266-2027-Institutional-Equity-Division-Industrial-Placement-Summer-Analyst-Program-Hong-Kong-Singapore/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
+-  [2027 Investment Banking Industrial Placement / Summer Analyst Program (Hong Kong / Singapore / Seoul)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21290-2027-Investment-Banking-Industrial-Placement-Summer-Analyst-Program-Hong-Kong-Singapore-Seoul/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
+-  [2027 Legal and Compliance Summer Analyst Program (Hong Kong)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21327-2027-Legal-and-Compliance-Summer-Analyst-Program-Hong-Kong/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
+-  [Corporate Access, off-cycle internship (6-months) – Japanese speaking](https://boards.greenhouse.io/point72/jobs/8603979002?gh_jid=8603979002) — **Point72** · Hong Kong · _new_ (found 2026-07-01)
 -  [CA Intern](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347793) — **UBS** · HK · _new_ (found 2026-06-27)
 -  [Business Analyst Intern](https://hk.jobsdb.com/job/92949605) — **JobsDB** · Kowloon Bay, Kwun Tong District · _new_ (found 2026-06-26)
 -  [2027 Summer Analyst Program - Investment Banking - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-353060751dcd/candidate/so/pm/1/pl/2/opp/1814-2027-Summer-Analyst-Program-Investment-Banking-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-06-25)
