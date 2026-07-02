@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-07-01
+# 📋 Job Tracker — updated 2026-07-02
 
-Total **46**  ·  🟢 Data/Tech **19**  ·  ⭐ Starred/Applied **11**
+Total **47**  ·  🟢 Data/Tech **19**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -37,6 +37,7 @@ Total **46**  ·  🟢 Data/Tech **19**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [Business Consultant, Full Time/Intern (GBA Elite Program)](https://hk.jobsdb.com/job/93073389) — **JobsDB** · Causeway Bay, Wan Chai District · _new_ (found 2026-07-02)
 -  [2027 Corporate Analyst Development Program - Summer Analyst - Hong Kong](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210753819/) — **JPMorgan** · Hong Kong · _new_ (found 2026-07-01)
 -  [2027 Human Resources Analyst Development Program - Summer Analyst - Hong Kong](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210754294/) — **JPMorgan** · Hong Kong · _new_ (found 2026-07-01)
 -  [Business Consultant, Full-Time/Intern](https://hk.jobsdb.com/job/93037768) — **JobsDB** · Tsim Sha Tsui, Yau Tsim Mong District · _new_ (found 2026-07-01)
