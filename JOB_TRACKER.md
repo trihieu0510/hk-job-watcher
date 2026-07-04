@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-07-03
+# 📋 Job Tracker — updated 2026-07-04
 
-Total **54**  ·  🟢 Data/Tech **19**  ·  ⭐ Starred/Applied **11**
+Total **61**  ·  🟢 Data/Tech **20**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **54**  ·  🟢 Data/Tech **19**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Analyst, Multi-Asset Investment (Quantitative, Fresh Graduate Welcome)](https://hk.jobsdb.com/job/92972970) — **JobsDB** · Central and Western District · _new_ (found 2026-07-04)
 -  [2027 Institutional Equity Division Quantitative Finance Summer Analyst / Associate Program (Hong Kong)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21270-2027-Institutional-Equity-Division-Quantitative-Finance-Summer-Analyst-Associate-Program-Hong-Kong/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
 -  [2027 Technology Summer Analyst Program (Hong Kong)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-4f0f95f95999/candidate/so/pm/1/pl/1/opp/21325-2027-Technology-Summer-Analyst-Program-Hong-Kong/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-01)
 -  [Intern Data Analytics (6-Month, Part-Time)](https://hk.jobsdb.com/job/92973328) — **JobsDB** · Kai Tak, Kowloon City District · _new_ (found 2026-06-27)
@@ -37,6 +38,12 @@ Total **54**  ·  🟢 Data/Tech **19**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [2027 Off-Cycle Internship - Global Banking - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348162) — **UBS** · HK · _new_ (found 2026-07-04)
+-  [2027 Off-Cycle Internship - Global Banking - Malaysia](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348167) — **UBS** · HK · _new_ (found 2026-07-04)
+-  [2027 Off-Cycle Internship - Global Banking - Philippines](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348164) — **UBS** · HK · _new_ (found 2026-07-04)
+-  [2027 Off-Cycle Internship - Global Banking - Taiwan](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348163) — **UBS** · HK · _new_ (found 2026-07-04)
+-  [2027 Summer Internship - Global Banking (UGB) - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348170) — **UBS** · HK · _new_ (found 2026-07-04)
+-  [2027 Summer Internship - Global Banking - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348161) — **UBS** · HK · _new_ (found 2026-07-04)
 -  [2027 Off-Cycle Internship - Global Wealth Management, CIO - SG](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347372) — **UBS** · HK · _new_ (found 2026-07-03)
 -  [2027 Off-Cycle Internship - Global Wealth Management, CMO - SG](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347373) — **UBS** · HK · _new_ (found 2026-07-03)
 -  [2027 Off-Cycle Internship - Global Wealth Management, COO - HK](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347369) — **UBS** · HK · _new_ (found 2026-07-03)
