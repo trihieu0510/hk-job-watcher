@@ -33,6 +33,7 @@
     "JobsDB|software engineer intern",
     "JobsDB|summer intern",
     "JobsDB|trainee (focus on product development & risk management)",
+    "Jump Trading|campus ai/ml researcher (fall 2026)",
     "Jump Trading|campus ai/ml researcher (spring 2026 / fall 2026)",
     "Jump Trading|campus trading team software engineer (intern)",
     "Lalamove|graduate software engineer - class of 2026 (frontend)",
@@ -537,7 +538,16 @@
       "location": "Sha Tin District",
       "data_tech": true,
       "posted": "2026-07-08"
+    },
+    "1524594548775452821": {
+      "key": "Jump Trading|campus ai/ml researcher (fall 2026)",
+      "title": "Campus AI/ML Researcher (Fall 2026) ",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=7282220",
+      "source": "Jump Trading",
+      "location": "Shanghai; Singapore; Hong Kong",
+      "data_tech": true,
+      "posted": "2026-07-09"
     }
   },
-  "last_run": "2026-07-08T23:39:22"
+  "last_run": "2026-07-09T01:54:27"
 }

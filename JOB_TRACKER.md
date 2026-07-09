@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-07-08
+# 📋 Job Tracker — updated 2026-07-09
 
-Total **77**  ·  🟢 Data/Tech **30**  ·  ⭐ Starred/Applied **11**
+Total **78**  ·  🟢 Data/Tech **31**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **77**  ·  🟢 Data/Tech **30**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Campus AI/ML Researcher (Fall 2026) ](https://www.jumptrading.com/hr/job?gh_jid=7282220) — **Jump Trading** · Shanghai; Singapore; Hong Kong · _new_ (found 2026-07-09)
 -  [Data Annotation - University Student Intern (Sep-Dec)](https://hk.jobsdb.com/job/93169662) — **JobsDB** · Sha Tin District · _new_ (found 2026-07-08)
 -  [AI Fintech Developer (Trainee/Intern)](https://hk.jobsdb.com/job/93158899) — **JobsDB** · Wan Chai District · _new_ (found 2026-07-07)
 -  [Software Engineer (Recent Graduate Welcome)](https://hk.jobsdb.com/job/93143992) — **JobsDB** · Causeway Bay, Wan Chai District · _new_ (found 2026-07-07)
