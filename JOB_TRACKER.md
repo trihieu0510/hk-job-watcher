@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-07-09
+# 📋 Job Tracker — updated 2026-07-10
 
-Total **78**  ·  🟢 Data/Tech **31**  ·  ⭐ Starred/Applied **11**
+Total **80**  ·  🟢 Data/Tech **32**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **78**  ·  🟢 Data/Tech **31**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [STEM Intern (Summer) － AI 教育科技](https://hk.jobsdb.com/job/93225643) — **JobsDB** · Tai Po, Tai Po District · _new_ (found 2026-07-10)
 -  [Campus AI/ML Researcher (Fall 2026) ](https://www.jumptrading.com/hr/job?gh_jid=7282220) — **Jump Trading** · Shanghai; Singapore; Hong Kong · _new_ (found 2026-07-09)
 -  [Data Annotation - University Student Intern (Sep-Dec)](https://hk.jobsdb.com/job/93169662) — **JobsDB** · Sha Tin District · _new_ (found 2026-07-08)
 -  [AI Fintech Developer (Trainee/Intern)](https://hk.jobsdb.com/job/93158899) — **JobsDB** · Wan Chai District · _new_ (found 2026-07-07)
@@ -49,6 +50,7 @@ Total **78**  ·  🟢 Data/Tech **31**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [2027 Graduate Talent Program – Finance – Japan](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348517) — **UBS** · HK · _new_ (found 2026-07-10)
 -  [AIA Business Consultant, Full-time / Intern](https://hk.jobsdb.com/job/93141148) — **JobsDB** · Causeway Bay, Wan Chai District · _new_ (found 2026-07-07)
 -  [2027 Off-cycle Internship - Global Markets - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348195) — **UBS** · HK · _new_ (found 2026-07-07)
 -  [2027 Off-cycle Internship - Global Markets - Philippines](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348208) — **UBS** · HK · _new_ (found 2026-07-07)

@@ -31,6 +31,7 @@
     "JobsDB|software engineer (c / c++ preferred) (fresh graduate / iang holder is welcome)",
     "JobsDB|software engineer (recent graduate welcome)",
     "JobsDB|software engineer intern",
+    "JobsDB|stem intern (summer) \uff0d ai \u6559\u80b2\u79d1\u6280",
     "JobsDB|summer intern",
     "JobsDB|trainee (focus on product development & risk management)",
     "Jump Trading|campus ai/ml researcher (fall 2026)",
@@ -53,6 +54,7 @@
     "Point72|quantitative researcher - intern",
     "Squarepoint|graduate support specialist",
     "Squarepoint|trading infrastructure specialist \u2013 graduate programme",
+    "UBS|2027 graduate talent program \u2013 finance \u2013 japan",
     "UBS|2027 off-cycle internship - global banking - hong kong",
     "UBS|2027 off-cycle internship - global banking - malaysia",
     "UBS|2027 off-cycle internship - global banking - philippines",
@@ -520,7 +522,25 @@
       "location": "Shanghai; Singapore; Hong Kong",
       "data_tech": true,
       "posted": "2026-07-09"
+    },
+    "1524956677411967087": {
+      "key": "JobsDB|stem intern (summer) \uff0d ai \u6559\u80b2\u79d1\u6280",
+      "title": "STEM Intern (Summer) \uff0d AI \u6559\u80b2\u79d1\u6280",
+      "url": "https://hk.jobsdb.com/job/93225643",
+      "source": "JobsDB",
+      "location": "Tai Po, Tai Po District",
+      "data_tech": true,
+      "posted": "2026-07-10"
+    },
+    "1524956684957519893": {
+      "key": "UBS|2027 graduate talent program \u2013 finance \u2013 japan",
+      "title": "2027 Graduate Talent Program \u2013 Finance \u2013 Japan",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348517",
+      "source": "UBS",
+      "location": "",
+      "data_tech": false,
+      "posted": "2026-07-10"
     }
   },
-  "last_run": "2026-07-10T01:12:44"
+  "last_run": "2026-07-10T01:53:27"
 }
