@@ -82,15 +82,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1519888507005566977": {
-      "key": "JobsDB|business analyst intern",
-      "title": "Business Analyst Intern",
-      "url": "https://hk.jobsdb.com/job/92949605",
-      "source": "JobsDB",
-      "location": "Kowloon Bay, Kwun Tong District",
-      "data_tech": false,
-      "posted": "2026-06-26"
-    },
     "1520249581835649125": {
       "key": "JobsDB|intern data analytics (6-month, part-time)",
       "title": "Intern Data Analytics (6-Month, Part-Time)",
@@ -542,5 +533,5 @@
       "posted": "2026-07-10"
     }
   },
-  "last_run": "2026-07-10T23:32:33"
+  "last_run": "2026-07-11T01:05:14"
 }
