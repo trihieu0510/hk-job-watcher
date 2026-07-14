@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-07-13
+# 📋 Job Tracker — updated 2026-07-14
 
-Total **82**  ·  🟢 Data/Tech **33**  ·  ⭐ Starred/Applied **11**
+Total **84**  ·  🟢 Data/Tech **34**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **82**  ·  🟢 Data/Tech **33**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Junior Data Scientist (Welcome Fresh Graduate)](https://hk.jobsdb.com/job/93291399) — **JobsDB** · Wong Chuk Hang, Southern District · _new_ (found 2026-07-14)
 -  [Human Resources Trainee (Data Analytics Focus)](https://hk.jobsdb.com/job/93256146) — **JobsDB** · Kwai Chung, Kwai Tsing District · _new_ (found 2026-07-11)
 -  [STEM Intern (Summer) － AI 教育科技](https://hk.jobsdb.com/job/93225643) — **JobsDB** · Tai Po, Tai Po District · _new_ (found 2026-07-10)
 -  [Campus AI/ML Researcher (Fall 2026) ](https://www.jumptrading.com/hr/job?gh_jid=7282220) — **Jump Trading** · Shanghai; Singapore; Hong Kong · _new_ (found 2026-07-09)
@@ -51,6 +52,7 @@ Total **82**  ·  🟢 Data/Tech **33**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [2027 Summer Internship - Asset Management - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348591) — **UBS** · HK · _new_ (found 2026-07-14)
 -  [Markets – Sales and Trading, Summer Analyst, Hong Kong - 2027](https://citi.wd5.myworkdayjobs.com/en-US/2/job/Hong-Kong--Hong-Kong/Markets---Sales-and-Trading--Summer-Analyst--Hong-Kong---2027_26978275) — **Citi** · Hong Kong  Hong Kong · _new_ (found 2026-07-11)
 -  [2027 Graduate Talent Program – Finance – Japan](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348517) — **UBS** · HK · _new_ (found 2026-07-10)
 -  [AIA Business Consultant, Full-time / Intern](https://hk.jobsdb.com/job/93141148) — **JobsDB** · Causeway Bay, Wan Chai District · _new_ (found 2026-07-07)

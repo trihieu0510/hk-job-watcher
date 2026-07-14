@@ -29,6 +29,7 @@
     "JobsDB|data annotation - university student intern (sep-dec)",
     "JobsDB|human resources trainee (data analytics focus)",
     "JobsDB|intern data analytics (6-month, part-time)",
+    "JobsDB|junior data scientist (welcome fresh graduate)",
     "JobsDB|software development and system analyst graduate trainee",
     "JobsDB|software engineer (c / c++ preferred) (fresh graduate / iang holder is welcome)",
     "JobsDB|software engineer (recent graduate welcome)",
@@ -75,6 +76,7 @@
     "UBS|2027 off-cycle internship - global wealth management, coo - sg",
     "UBS|2027 off-cycle internship - global wealth management, solutions - hk",
     "UBS|2027 off-cycle internship program - global markets - thailand",
+    "UBS|2027 summer internship - asset management - hong kong",
     "UBS|2027 summer internship - gic change management - hong kong",
     "UBS|2027 summer internship - gic risk & regulatory \u2013 hong kong",
     "UBS|2027 summer internship - global banking (ugb) - hong kong",
@@ -533,7 +535,25 @@
       "location": "Hong Kong  Hong Kong",
       "data_tech": false,
       "posted": "2026-07-11"
+    },
+    "1526398970346209363": {
+      "key": "JobsDB|junior data scientist (welcome fresh graduate)",
+      "title": "Junior Data Scientist (Welcome Fresh Graduate)",
+      "url": "https://hk.jobsdb.com/job/93291399",
+      "source": "JobsDB",
+      "location": "Wong Chuk Hang, Southern District",
+      "data_tech": true,
+      "posted": "2026-07-14"
+    },
+    "1526398978902720524": {
+      "key": "UBS|2027 summer internship - asset management - hong kong",
+      "title": "2027 Summer Internship - Asset Management - Hong Kong",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348591",
+      "source": "UBS",
+      "location": "",
+      "data_tech": false,
+      "posted": "2026-07-14"
     }
   },
-  "last_run": "2026-07-14T00:58:01"
+  "last_run": "2026-07-14T01:24:37"
 }
