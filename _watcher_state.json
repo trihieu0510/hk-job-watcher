@@ -58,6 +58,7 @@
     "Squarepoint|graduate support specialist",
     "Squarepoint|trading infrastructure specialist \u2013 graduate programme",
     "UBS|2027 graduate talent program \u2013 finance \u2013 japan",
+    "UBS|2027 off-cycle internship - artificial intelligence specialist - sg",
     "UBS|2027 off-cycle internship - global banking - hong kong",
     "UBS|2027 off-cycle internship - global banking - malaysia",
     "UBS|2027 off-cycle internship - global banking - philippines",
@@ -292,7 +293,16 @@
       "location": "",
       "data_tech": false,
       "posted": "2026-07-14"
+    },
+    "1528212652046684314": {
+      "key": "UBS|2027 off-cycle internship - artificial intelligence specialist - sg",
+      "title": "2027 Off-Cycle Internship - Artificial Intelligence Specialist - SG",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348130",
+      "source": "UBS",
+      "location": "",
+      "data_tech": false,
+      "posted": "2026-07-19"
     }
   },
-  "last_run": "2026-07-19T01:05:14"
+  "last_run": "2026-07-19T01:31:30"
 }
