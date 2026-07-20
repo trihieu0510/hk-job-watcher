@@ -88,15 +88,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1523146826365141093": {
-      "key": "JobsDB|software development and system analyst graduate trainee",
-      "title": "Software Development and System Analyst Graduate Trainee",
-      "url": "https://hk.jobsdb.com/job/92780902",
-      "source": "JobsDB",
-      "location": "Kwai Hing, Kwai Tsing District",
-      "data_tech": true,
-      "posted": "2026-07-05"
-    },
     "1523510730849128469": {
       "key": "JobsDB|2026-2027 business consultant internship (internship program)",
       "title": "2026-2027 Business Consultant Internship (Internship Program)",
@@ -314,5 +305,5 @@
       "posted": "2026-07-20"
     }
   },
-  "last_run": "2026-07-20T01:57:52"
+  "last_run": "2026-07-20T03:56:51"
 }
