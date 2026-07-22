@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-07-21
+# 📋 Job Tracker — updated 2026-07-22
 
-Total **88**  ·  🟢 Data/Tech **34**  ·  ⭐ Starred/Applied **11**
+Total **89**  ·  🟢 Data/Tech **35**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **88**  ·  🟢 Data/Tech **34**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Quantitative Research & Development Intern](https://hk.jobsdb.com/job/93451968) — **JobsDB** · Hong Kong SAR · _new_ (found 2026-07-22)
 -  [Junior Data Scientist (Welcome Fresh Graduate)](https://hk.jobsdb.com/job/93291399) — **JobsDB** · Wong Chuk Hang, Southern District · _new_ (found 2026-07-14)
 -  [Human Resources Trainee (Data Analytics Focus)](https://hk.jobsdb.com/job/93256146) — **JobsDB** · Kwai Chung, Kwai Tsing District · _new_ (found 2026-07-11)
 -  [STEM Intern (Summer) － AI 教育科技](https://hk.jobsdb.com/job/93225643) — **JobsDB** · Tai Po, Tai Po District · _new_ (found 2026-07-10)
