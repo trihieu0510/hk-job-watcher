@@ -91,15 +91,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1524594548775452821": {
-      "key": "Jump Trading|campus ai/ml researcher (fall 2026)",
-      "title": "Campus AI/ML Researcher (Fall 2026) ",
-      "url": "https://www.jumptrading.com/hr/job?gh_jid=7282220",
-      "source": "Jump Trading",
-      "location": "Shanghai; Singapore; Hong Kong",
-      "data_tech": true,
-      "posted": "2026-07-09"
-    },
     "1524956677411967087": {
       "key": "JobsDB|stem intern (summer) \uff0d ai \u6559\u80b2\u79d1\u6280",
       "title": "STEM Intern (Summer) \uff0d AI \u6559\u80b2\u79d1\u6280",
@@ -200,5 +191,5 @@
       "posted": "2026-07-22"
     }
   },
-  "last_run": "2026-07-23T22:58:31"
+  "last_run": "2026-07-24T00:06:47"
 }
