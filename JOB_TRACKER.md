@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-07-23
+# 📋 Job Tracker — updated 2026-07-24
 
-Total **89**  ·  🟢 Data/Tech **35**  ·  ⭐ Starred/Applied **11**
+Total **91**  ·  🟢 Data/Tech **35**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -53,6 +53,8 @@ Total **89**  ·  🟢 Data/Tech **35**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [Services - Summer Analyst, Hong Kong, 2027](https://citi.wd5.myworkdayjobs.com/en-US/2/job/Hong-Kong--Hong-Kong/Services---Summer-Analyst--Hong-Kong--2027_26978589) — **Citi** · Hong Kong  Hong Kong · _new_ (found 2026-07-24)
+-  [Intern](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348665) — **UBS** · HK · _new_ (found 2026-07-24)
 -  [Information Security Specialist (Part time Internship)](https://jobs.lever.co/lalamove/de55266a-b824-46bf-ba5a-35f22f783a3d) — **Lalamove** · Hong Kong SAR · _new_ (found 2026-07-21)
 -  [Graduate Trading Applications Specialist ](https://www.squarepoint-capital.com/open-opportunities?id=6100081&gh_jid=6100081) — **Squarepoint** · London, Montreal, New York, Houston, Hong Kong · _new_ (found 2026-07-21)
 -  [2027 Investment Banking Summer Associate (MBA) Program (Hong Kong / Singapore / Sydney)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-7d61f38c0efd/candidate/so/pm/1/pl/1/opp/21285-2027-Investment-Banking-Summer-Associate-MBA-Program-Hong-Kong-Singapore-Sydney/en-GB) — **Morgan Stanley** · HK · _new_ (found 2026-07-20)
