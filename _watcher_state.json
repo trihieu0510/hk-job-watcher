@@ -64,6 +64,7 @@
     "Point72|quantitative researcher - intern",
     "Squarepoint|graduate support specialist",
     "Squarepoint|graduate trading applications specialist",
+    "Squarepoint|intern quant researcher",
     "Squarepoint|trading infrastructure specialist \u2013 graduate programme",
     "UBS|2027 graduate talent program \u2013 finance \u2013 japan",
     "UBS|2027 off-cycle internship - artificial intelligence specialist - sg",
@@ -203,7 +204,16 @@
       "location": "Science Park, Tai Po District",
       "data_tech": true,
       "posted": "2026-07-25"
+    },
+    "1531473662811570309": {
+      "key": "Squarepoint|intern quant researcher",
+      "title": "Intern Quant Researcher",
+      "url": "https://www.squarepoint-capital.com/open-opportunities?id=243853&gh_jid=243853",
+      "source": "Squarepoint",
+      "location": "London, Paris, New York, Singapore, Hong Kong",
+      "data_tech": true,
+      "posted": "2026-07-28"
     }
   },
-  "last_run": "2026-07-28T00:55:58"
+  "last_run": "2026-07-28T01:29:36"
 }
