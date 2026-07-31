@@ -24,6 +24,7 @@
     "JobsDB|aia business consultant, full-time / intern",
     "JobsDB|analyst, multi-asset investment (quantitative, fresh graduate welcome)",
     "JobsDB|artificial intelligence (ai) intern",
+    "JobsDB|backend developer (5-day work, fresh graduate will be considered)",
     "JobsDB|business analyst intern",
     "JobsDB|business analyst/ junior/trainee analyst (not it/data)",
     "JobsDB|business consultant, full time/intern (gba elite program)",
@@ -195,7 +196,16 @@
       "location": "London, Paris, New York, Singapore, Hong Kong",
       "data_tech": true,
       "posted": "2026-07-28"
+    },
+    "1532565899549216839": {
+      "key": "JobsDB|backend developer (5-day work, fresh graduate will be considered)",
+      "title": "Backend Developer (5-day work, Fresh graduate will be considered)",
+      "url": "https://hk.jobsdb.com/job/93662975",
+      "source": "JobsDB",
+      "location": "Yau Tsim Mong District",
+      "data_tech": true,
+      "posted": "2026-07-31"
     }
   },
-  "last_run": "2026-07-31T01:05:53"
+  "last_run": "2026-07-31T01:49:47"
 }
