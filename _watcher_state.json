@@ -5,6 +5,7 @@
     "Citi|markets \u2013 sales and trading, summer analyst, hong kong - 2027",
     "Citi|services - summer analyst, hong kong, 2027",
     "HSBC|gsc: financial engineering - internship",
+    "HSBC|intern commercial and institutional banking coverage (24-month fixed-term contract)",
     "JPMorgan|2027 asset management program \u2013 summer internship \u2013 hong kong",
     "JPMorgan|2027 commercial & investment bank - global investment banking analyst program \u2013 summer analyst - hong kong",
     "JPMorgan|2027 commercial & investment bank - global payments program - summer analyst - hong kong",
@@ -205,7 +206,16 @@
       "location": "Yau Tsim Mong District",
       "data_tech": true,
       "posted": "2026-07-31"
+    },
+    "1532928693792411659": {
+      "key": "HSBC|intern commercial and institutional banking coverage (24-month fixed-term contract)",
+      "title": "Intern Commercial and Institutional Banking Coverage (24-month Fixed-Term Contract)",
+      "url": "https://mycareer.hsbc.com/en_GB/external/PipelineDetail/Intern-Commercial-and-Institutional-Banking-Coverage-24-month-Fixed-Term-Contract/288665",
+      "source": "HSBC",
+      "location": "",
+      "data_tech": false,
+      "posted": "2026-08-01"
     }
   },
-  "last_run": "2026-08-01T00:03:34"
+  "last_run": "2026-08-01T01:51:23"
 }
