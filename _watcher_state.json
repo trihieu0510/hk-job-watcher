@@ -15,6 +15,7 @@
     "JPMorgan|2027 global private bank advisor program \u2013 summer internship - hong kong",
     "JPMorgan|2027 global private bank investment solutions program \u2013 summer internship - hong kong",
     "JPMorgan|2027 human resources analyst development program - summer analyst - hong kong",
+    "Jefferies|2026 equities sales and trading graduate analyst program \u2013 hong kong",
     "Jefferies|2026 graduate analyst program - equity research - hong kong",
     "Jefferies|2026 information technology graduate analyst - equity technology - hong kong",
     "Jefferies|2027 summer analyst program - investment banking (hong kong)",
@@ -71,6 +72,7 @@
     "UBS|2027 graduate talent program \u2013 finance \u2013 japan",
     "UBS|2027 off-cycle internship - artificial intelligence specialist - sg",
     "UBS|2027 off-cycle internship - global banking - hong kong",
+    "UBS|2027 off-cycle internship - global banking - mainland china",
     "UBS|2027 off-cycle internship - global banking - malaysia",
     "UBS|2027 off-cycle internship - global banking - philippines",
     "UBS|2027 off-cycle internship - global banking - taiwan",
@@ -78,6 +80,7 @@
     "UBS|2027 off-cycle internship - global markets - philippines",
     "UBS|2027 off-cycle internship - global research - hong kong",
     "UBS|2027 off-cycle internship - global research - indonesia",
+    "UBS|2027 off-cycle internship - global research - mainland china",
     "UBS|2027 off-cycle internship - global research - malaysia",
     "UBS|2027 off-cycle internship - global research - philippines",
     "UBS|2027 off-cycle internship - global research - taiwan",
@@ -93,6 +96,7 @@
     "UBS|2027 summer internship - gic risk & regulatory \u2013 hong kong",
     "UBS|2027 summer internship - global banking (ugb) - hong kong",
     "UBS|2027 summer internship - global banking - hong kong",
+    "UBS|2027 summer internship - global banking - mainland china",
     "UBS|2027 summer internship - global markets - hong kong",
     "UBS|ca intern",
     "UBS|intern",
@@ -215,7 +219,43 @@
       "location": "",
       "data_tech": false,
       "posted": "2026-08-01"
+    },
+    "1533653092279648298": {
+      "key": "UBS|2027 off-cycle internship - global research - mainland china",
+      "title": "2027 Off-cycle Internship - Global Research - Mainland China",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348576",
+      "source": "UBS",
+      "location": "",
+      "data_tech": true,
+      "posted": "2026-08-03"
+    },
+    "1533653101947654255": {
+      "key": "Jefferies|2026 equities sales and trading graduate analyst program \u2013 hong kong",
+      "title": "2026 Equities Sales and Trading Graduate Analyst Program \u2013 Hong Kong",
+      "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-959a49e7d8f7/candidate/so/pm/1/pl/2/opp/1901-2026-Equities-Sales-and-Trading-Graduate-Analyst-Program-Hong-Kong/en-GB",
+      "source": "Jefferies",
+      "location": "",
+      "data_tech": false,
+      "posted": "2026-08-03"
+    },
+    "1533653110596043026": {
+      "key": "UBS|2027 off-cycle internship - global banking - mainland china",
+      "title": "2027 Off-Cycle Internship - Global Banking - Mainland China",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349467",
+      "source": "UBS",
+      "location": "",
+      "data_tech": false,
+      "posted": "2026-08-03"
+    },
+    "1533653119559536831": {
+      "key": "UBS|2027 summer internship - global banking - mainland china",
+      "title": "2027 Summer Internship - Global Banking - Mainland China",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349466",
+      "source": "UBS",
+      "location": "",
+      "data_tech": false,
+      "posted": "2026-08-03"
     }
   },
-  "last_run": "2026-08-03T00:00:15"
+  "last_run": "2026-08-03T01:49:59"
 }
