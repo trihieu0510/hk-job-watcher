@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-08-04
+# 📋 Job Tracker — updated 2026-08-05
 
-Total **101**  ·  🟢 Data/Tech **41**  ·  ⭐ Starred/Applied **11**
+Total **103**  ·  🟢 Data/Tech **43**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,8 @@ Total **101**  ·  🟢 Data/Tech **41**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Software Engineer (Computer Vision) (Fresh Graduate is welcome)](https://hk.jobsdb.com/job/93743354) — **JobsDB** · Tsing Yi, Kwai Tsing District · _new_ (found 2026-08-05)
+-  [2027 Summer Internship - Group Technology Office - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348128) — **UBS** · HK · _new_ (found 2026-08-05)
 -  [2027 Off-cycle Internship - Global Research - Mainland China](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348576) — **UBS** · HK · _new_ (found 2026-08-03)
 -  [Backend Developer (5-day work, Fresh graduate will be considered)](https://hk.jobsdb.com/job/93662975) — **JobsDB** · Yau Tsim Mong District · _new_ (found 2026-07-31)
 -  [Intern Quant Researcher](https://www.squarepoint-capital.com/open-opportunities?id=243853&gh_jid=243853) — **Squarepoint** · London, Paris, New York, Singapore, Hong Kong · _new_ (found 2026-07-28)

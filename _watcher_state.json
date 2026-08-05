@@ -40,6 +40,7 @@
     "JobsDB|robotics software engineer (intern)",
     "JobsDB|software development and system analyst graduate trainee",
     "JobsDB|software engineer (c / c++ preferred) (fresh graduate / iang holder is welcome)",
+    "JobsDB|software engineer (computer vision) (fresh graduate is welcome)",
     "JobsDB|software engineer (recent graduate welcome)",
     "JobsDB|software engineer intern",
     "JobsDB|stem intern (summer) \uff0d ai \u6559\u80b2\u79d1\u6280",
@@ -98,6 +99,7 @@
     "UBS|2027 summer internship - global banking - hong kong",
     "UBS|2027 summer internship - global banking - mainland china",
     "UBS|2027 summer internship - global markets - hong kong",
+    "UBS|2027 summer internship - group technology office - hong kong",
     "UBS|ca intern",
     "UBS|intern",
     "UBS|internship (global research)"
@@ -237,7 +239,25 @@
       "location": "",
       "data_tech": false,
       "posted": "2026-08-03"
+    },
+    "1534373013003305052": {
+      "key": "JobsDB|software engineer (computer vision) (fresh graduate is welcome)",
+      "title": "Software Engineer (Computer Vision) (Fresh Graduate is welcome)",
+      "url": "https://hk.jobsdb.com/job/93743354",
+      "source": "JobsDB",
+      "location": "Tsing Yi, Kwai Tsing District",
+      "data_tech": true,
+      "posted": "2026-08-05"
+    },
+    "1534373022105075873": {
+      "key": "UBS|2027 summer internship - group technology office - hong kong",
+      "title": "2027 Summer Internship - Group Technology Office - Hong Kong",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348128",
+      "source": "UBS",
+      "location": "",
+      "data_tech": true,
+      "posted": "2026-08-05"
     }
   },
-  "last_run": "2026-08-04T23:34:00"
+  "last_run": "2026-08-05T01:30:37"
 }
