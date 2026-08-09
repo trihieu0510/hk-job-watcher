@@ -111,33 +111,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1530390509166792836": {
-      "key": "JobsDB|ai-native creator (junior / fresh graduate)",
-      "title": "AI-Native Creator (Junior / Fresh Graduate)",
-      "url": "https://hk.jobsdb.com/job/93543540",
-      "source": "JobsDB",
-      "location": "Wong Chuk Hang, Southern District",
-      "data_tech": true,
-      "posted": "2026-07-25"
-    },
-    "1530390518003925166": {
-      "key": "JobsDB|data product manager ba (internship \u00b7 financial ai direction)",
-      "title": "Data Product Manager BA (Internship \u00b7 Financial AI Direction)",
-      "url": "https://hk.jobsdb.com/job/93542136",
-      "source": "JobsDB",
-      "location": "Hong Kong SAR",
-      "data_tech": true,
-      "posted": "2026-07-25"
-    },
-    "1530390535121014866": {
-      "key": "JobsDB|robotics software engineer (intern)",
-      "title": "Robotics Software Engineer (Intern)",
-      "url": "https://hk.jobsdb.com/job/93544976",
-      "source": "JobsDB",
-      "location": "Science Park, Tai Po District",
-      "data_tech": true,
-      "posted": "2026-07-25"
-    },
     "1531473662811570309": {
       "key": "Squarepoint|intern quant researcher",
       "title": "Intern Quant Researcher",
@@ -274,5 +247,5 @@
       "posted": "2026-08-08"
     }
   },
-  "last_run": "2026-08-09T00:54:26"
+  "last_run": "2026-08-09T01:53:20"
 }
