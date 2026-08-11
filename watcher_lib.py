@@ -103,7 +103,8 @@ def _discord(method, path, body=None, expect_json=True):
         data = b""
     else:
         data = None
-    for _ in range(4):
+    last = None
+    for attempt in range(4):
         req = urllib.request.Request(API + path, data=data, method=method, headers={
             "Authorization": f"Bot {token}",
             "Content-Type": "application/json",
@@ -113,14 +114,22 @@ def _discord(method, path, body=None, expect_json=True):
                 raw = r.read().decode("utf-8", "replace")
                 return json.loads(raw) if (expect_json and raw) else None
         except urllib.error.HTTPError as ex:
-            if ex.code == 429:  # rate limited -> wait and retry
+            last = ex
+            if ex.code == 429:  # rate limited -> honour retry_after
                 try:
                     wait = float(json.loads(ex.read().decode("utf-8", "replace")).get("retry_after", 1.0))
                 except Exception:
                     wait = 1.0
                 time.sleep(min(wait + 0.1, 5)); continue
-            raise
-    raise RuntimeError(f"Discord {method} {path} failed after retries")
+            if 500 <= ex.code < 600:  # Discord server-side blip -> back off and retry
+                time.sleep(min(2 ** attempt, 5)); continue
+            raise  # 4xx other than 429 is our bug; retrying will not help
+        except OSError as ex:
+            # URLError, socket timeout, connection reset -- all transient.
+            # (HTTPError subclasses URLError, so it is already handled above.)
+            last = ex
+            time.sleep(min(2 ** attempt, 5)); continue
+    raise RuntimeError(f"Discord {method} {path} failed after 4 attempts: {last!r}")
 
 
 def post_text(channel_id, content):
