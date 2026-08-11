@@ -179,11 +179,23 @@ TRACK_FIELDS = ["key", "date_found", "source", "title", "location", "data_tech",
 
 
 def load_tracker():
+    """Read the tracker CSV into {key: row}, skipping rows we cannot address.
+
+    A row with no `key` cannot be deduped or status-updated, and indexing it
+    blind (`r["key"]`) raises on a CSV whose header is damaged -- which would
+    propagate out of update_tracker and abort a run *after* it had already
+    posted to Discord. Skip and log instead, so one bad line costs one line.
+    """
     rows = {}
-    if os.path.exists(TRACKER_CSV):
-        with open(TRACKER_CSV, encoding="utf-8") as f:
-            for r in csv.DictReader(f):
-                rows[r["key"]] = r
+    if not os.path.exists(TRACKER_CSV):
+        return rows
+    with open(TRACKER_CSV, encoding="utf-8") as f:
+        for lineno, r in enumerate(csv.DictReader(f), start=2):
+            key = (r.get("key") or "").strip()
+            if not key:
+                log(f"[tracker][warn] {os.path.basename(TRACKER_CSV)}:{lineno} has no key, skipped")
+                continue
+            rows[key] = r
     return rows
 
 
