@@ -23,8 +23,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: requirements.txt
 
-      # watcher_lib and _reaction_poller are stdlib-only, so there is nothing to
-      # install -- no pip step, no Playwright, no browser download.
+      # Installs the playwright package so _daily_job_watcher is importable.
+      # No `playwright install` -- the tests stub the network and never launch
+      # a browser, so there is no browser download here.
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       - name: Run unit tests
         run: python -m unittest discover -s tests -t . -v
