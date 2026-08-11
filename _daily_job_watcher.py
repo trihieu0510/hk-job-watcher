@@ -245,23 +245,33 @@ def discover():
     all_entries = []
     need_render = any(s["type"] == "render" for s in SOURCES)
     browser = pw = page = None
-    if need_render:
-        pw = sync_playwright().start()
-        browser = pw.chromium.launch(headless=True)
-        ctx = browser.new_context(user_agent=UA, viewport={"width": 1366, "height": 1400}, locale="en-US")
-        page = ctx.new_page()
-    for src in SOURCES:
-        try:
-            got = fetch_render(page, src) if src["type"] == "render" else fetchers[src["type"]](src)
-            hits = [e for e in got if is_hk_student(e)]
-            log(f"[ok] {src['name']}: {len(got)} fetched, {len(hits)} HK student-role(s)")
-            all_entries += hits
-        except Exception as e:
-            log(f"[error] {src['name']}: {repr(e)[:160]}")
-    if browser:
-        browser.close()
-    if pw:
-        pw.stop()
+    try:
+        if need_render:
+            pw = sync_playwright().start()
+            browser = pw.chromium.launch(headless=True)
+            ctx = browser.new_context(user_agent=UA, viewport={"width": 1366, "height": 1400}, locale="en-US")
+            page = ctx.new_page()
+        for src in SOURCES:
+            try:
+                got = fetch_render(page, src) if src["type"] == "render" else fetchers[src["type"]](src)
+                hits = [e for e in got if is_hk_student(e)]
+                log(f"[ok] {src['name']}: {len(got)} fetched, {len(hits)} HK student-role(s)")
+                all_entries += hits
+            except Exception as e:
+                log(f"[error] {src['name']}: {repr(e)[:160]}")
+    finally:
+        # Tear down even if launch() itself failed or something escaped the loop.
+        # start() spawns the Playwright node driver as a subprocess; if stop() is
+        # skipped that process is orphaned and outlives the script. Each closer is
+        # guarded separately so a failing browser.close() cannot skip pw.stop().
+        for name, closer in (("browser.close", getattr(browser, "close", None)),
+                             ("playwright.stop", getattr(pw, "stop", None))):
+            if closer is None:
+                continue
+            try:
+                closer()
+            except Exception as e:
+                log(f"[warn] {name}: {repr(e)[:120]}")
     # de-dup with a STABLE key (source + normalized title; URLs carry rotating tokens)
     uniq, keyset = [], set()
     for e in all_entries:
