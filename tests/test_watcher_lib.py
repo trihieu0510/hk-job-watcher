@@ -246,5 +246,87 @@ class EmbedTests(unittest.TestCase):
         self.assertLessEqual(len(e["title"]), 250)
 
 
+class CheckConfigTests(unittest.TestCase):
+    GOOD = {"alerts_channel_id": "1", "starred_channel_id": "2"}
+
+    def test_complete_config_has_no_problems(self):
+        with mock.patch.dict(os.environ, {"DISCORD_BOT_TOKEN": "t"}):
+            self.assertEqual(wl.check_config(self.GOOD), [])
+
+    def test_names_the_missing_channel(self):
+        with mock.patch.dict(os.environ, {"DISCORD_BOT_TOKEN": "t"}):
+            problems = wl.check_config({})
+        self.assertEqual(len(problems), 1)
+        self.assertIn("alerts_channel_id", problems[0])
+
+    def test_names_the_missing_token(self):
+        with mock.patch.dict(os.environ, {"DISCORD_BOT_TOKEN": ""}):
+            problems = wl.check_config(self.GOOD)
+        self.assertEqual(len(problems), 1)
+        self.assertIn("DISCORD_BOT_TOKEN", problems[0])
+
+    def test_reports_every_problem_at_once(self):
+        with mock.patch.dict(os.environ, {"DISCORD_BOT_TOKEN": ""}):
+            problems = wl.check_config({}, ("alerts_channel_id", "starred_channel_id"))
+        self.assertEqual(len(problems), 3)
+
+    def test_blank_values_count_as_missing(self):
+        with mock.patch.dict(os.environ, {"DISCORD_BOT_TOKEN": "   "}):
+            problems = wl.check_config({"alerts_channel_id": "   "})
+        self.assertEqual(len(problems), 2)
+
+    def test_poller_requires_the_starred_channel_too(self):
+        with mock.patch.dict(os.environ, {"DISCORD_BOT_TOKEN": "t"}):
+            problems = wl.check_config({"alerts_channel_id": "1"},
+                                       ("alerts_channel_id", "starred_channel_id"))
+        self.assertEqual(len(problems), 1)
+        self.assertIn("starred_channel_id", problems[0])
+
+
+class CommittedTokenGuardTests(unittest.TestCase):
+    """bot_config.json is tracked by git, so a token in it is a published secret."""
+
+    def setUp(self):
+        self.dir = tempfile.mkdtemp()
+        self.root = mock.patch.object(wl, "ROOT", self.dir)
+        self.root.start()
+        self.logged = []
+        self.log = mock.patch.object(wl, "log", self.logged.append)
+        self.log.start()
+
+    def tearDown(self):
+        self.log.stop()
+        self.root.stop()
+
+    def write(self, name, obj):
+        import json as _json
+        with open(os.path.join(self.dir, name), "w", encoding="utf-8") as f:
+            _json.dump(obj, f)
+
+    def test_warns_when_token_is_in_the_committed_file(self):
+        self.write("bot_config.json", {"alerts_channel_id": "1", "bot_token": "secret"})
+        wl.load_bot_config()
+        self.assertTrue(any("SECURITY" in m for m in self.logged), self.logged)
+
+    def test_silent_when_the_committed_file_has_no_token(self):
+        self.write("bot_config.json", {"alerts_channel_id": "1"})
+        wl.load_bot_config()
+        self.assertEqual(self.logged, [])
+
+    def test_silent_when_the_token_is_only_in_the_gitignored_file(self):
+        self.write("bot_config.json", {"alerts_channel_id": "1"})
+        self.write("_watcher_config.json", {"bot_token": "secret"})
+        cfg = wl.load_bot_config()
+        self.assertEqual(self.logged, [])
+        self.assertEqual(cfg["bot_token"], "secret", "local overrides must still apply")
+
+    def test_local_overrides_win_but_blanks_do_not_clobber(self):
+        self.write("bot_config.json", {"alerts_channel_id": "committed"})
+        self.write("_watcher_config.json", {"alerts_channel_id": "", "starred_channel_id": "local"})
+        cfg = wl.load_bot_config()
+        self.assertEqual(cfg["alerts_channel_id"], "committed")
+        self.assertEqual(cfg["starred_channel_id"], "local")
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -17,13 +17,14 @@ except Exception:
 
 def main():
     cfg = wl.load_bot_config()
-    token = wl.ensure_token(cfg)
+    wl.ensure_token(cfg)          # exports the token to the environment for _discord()
     alerts = str(cfg.get("alerts_channel_id", "")).strip()
     starred = str(cfg.get("starred_channel_id", "")).strip()
     stale_days = int(cfg.get("poll_stale_days", 14))
 
-    if not token or not alerts or not starred:
-        wl.log("[poll][error] missing token / alerts_channel_id / starred_channel_id"); return
+    problems = wl.check_config(cfg, ("alerts_channel_id", "starred_channel_id"))
+    if problems:
+        wl.log("[poll][error] cannot run: " + "; ".join(problems)); return
 
     state = wl.load_state()
     pending = state.get("pending", {})
