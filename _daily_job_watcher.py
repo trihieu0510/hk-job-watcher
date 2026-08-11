@@ -321,7 +321,7 @@ def parse_args(argv=None):
 def main(argv=None):
     args = parse_args(argv)
     cfg = wl.load_bot_config()
-    token = wl.ensure_token(cfg)
+    wl.ensure_token(cfg)          # exports the token to the environment for _discord()
     alerts = str(cfg.get("alerts_channel_id", "")).strip()
 
     state = wl.load_state()
@@ -355,9 +355,9 @@ def main(argv=None):
         print(f"\n[DRY RUN] {len(new_roles)} new role(s); nothing posted, state/tracker unchanged.")
         return
 
-    if not token or not alerts:
-        log("[error] missing DISCORD_BOT_TOKEN or alerts_channel_id -- cannot post. "
-            "Set the secret and bot_config.json."); return
+    problems = wl.check_config(cfg, ("alerts_channel_id",))
+    if problems:
+        log("[error] cannot post: " + "; ".join(problems)); return
 
     # post header, then one embed per new role with reactions pre-added
     try:

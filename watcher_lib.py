@@ -76,9 +76,34 @@ def load_json(path, default):
 
 def load_bot_config():
     cfg = load_json(os.path.join(ROOT, "bot_config.json"), {})
+    if str(cfg.get("bot_token", "")).strip():
+        # bot_config.json is committed. A token here is published on every push.
+        log("[config][SECURITY] bot_config.json contains a bot_token, and that file is "
+            "tracked by git -- the token is in your commit history and, on a public repo, "
+            "readable by anyone. Reset it in the Discord developer portal, then supply the "
+            "new one via the DISCORD_BOT_TOKEN secret or _watcher_config.json (gitignored).")
     local = load_json(os.path.join(ROOT, "_watcher_config.json"), {})  # local-only overrides (gitignored)
     cfg.update({k: v for k, v in local.items() if v})
     return cfg
+
+
+def check_config(cfg, need=("alerts_channel_id",)):
+    """Return a list of human-readable problems with `cfg`; empty means usable.
+
+    Callers previously tested `not token or not alerts or not starred` and logged
+    one message covering all three, which named the failure but not the cause.
+    Report exactly which pieces are missing, and where each one comes from.
+
+    Call after ensure_token(), which is what puts the token into the environment.
+    """
+    problems = []
+    for key in need:
+        if not str(cfg.get(key, "")).strip():
+            problems.append(f"{key} is not set in bot_config.json")
+    if not os.environ.get("DISCORD_BOT_TOKEN", "").strip():
+        problems.append("DISCORD_BOT_TOKEN is not set (Actions secret, or bot_token "
+                        "in a local _watcher_config.json)")
+    return problems
 
 
 def ensure_token(cfg=None):

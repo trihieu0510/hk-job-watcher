@@ -73,6 +73,9 @@ class PollerTest(unittest.TestCase):
         }
         self._patches = [mock.patch.object(wl, name, impl) for name, impl in patches.items()]
         self._patches.append(mock.patch.object(rp.time, "sleep", lambda *_: None))
+        # check_config reads the token from the environment, which is what the real
+        # ensure_token() populates -- the stub above only returns it.
+        self._patches.append(mock.patch.dict(os.environ, {"DISCORD_BOT_TOKEN": "token"}))
         for p in self._patches:
             p.start()
 
