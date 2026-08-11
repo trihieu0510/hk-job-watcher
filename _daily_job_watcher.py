@@ -13,7 +13,7 @@ Run:   python _daily_job_watcher.py          (post new roles)
        python _daily_job_watcher.py --dry     (print only, no posting/state change)
        python _daily_job_watcher.py --seed    (baseline silently: tracker + seen, no posting)
 """
-import os, re, sys, time, datetime, json, urllib.request, urllib.parse, urllib.error
+import argparse, os, re, sys, time, datetime, json, urllib.request, urllib.parse, urllib.error
 from playwright.sync_api import sync_playwright
 import watcher_lib as wl
 
@@ -25,8 +25,6 @@ except Exception:
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(os.path.join(ROOT, "_scrape_out"), exist_ok=True)
-DRY = "--dry" in sys.argv
-SEED = "--seed" in sys.argv
 log = wl.log
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -306,7 +304,22 @@ def discover():
     return uniq
 
 
-def main():
+def parse_args(argv=None):
+    p = argparse.ArgumentParser(
+        prog="_daily_job_watcher.py",
+        description="Discover Hong Kong early-career roles and announce new ones to Discord.")
+    mode = p.add_mutually_exclusive_group()
+    mode.add_argument("--dry", action="store_true",
+                      help="print what would be posted; makes no Discord calls and "
+                           "leaves the tracker and state file untouched")
+    mode.add_argument("--seed", action="store_true",
+                      help="baseline silently: populate the tracker and the seen-set "
+                           "from the current boards without posting anything")
+    return p.parse_args(argv)
+
+
+def main(argv=None):
+    args = parse_args(argv)
     cfg = wl.load_bot_config()
     token = wl.ensure_token(cfg)
     alerts = str(cfg.get("alerts_channel_id", "")).strip()
@@ -319,7 +332,7 @@ def main():
     new_roles.sort(key=lambda e: (not e["data_tech"], e["source"], e["title"]))
     today = datetime.date.today().isoformat()
 
-    if SEED:
+    if args.seed:
         wl.update_tracker(uniq, today)
         state["seen"] = sorted(seen | {e["_key"] for e in uniq})
         wl.save_state(state)
@@ -335,7 +348,7 @@ def main():
         header = (f"🌅 **HK Internship Watch — {today}** — no new roles today "
                   f"(tracking {len(uniq)}). Still watching.")
 
-    if DRY:
+    if args.dry:
         log("[DRY] header:\n" + header)
         for e in new_roles:
             log(f"[DRY] would post: {e['source']} | {e['title']} | {e['url']}")

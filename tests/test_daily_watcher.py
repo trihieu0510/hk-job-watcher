@@ -4,6 +4,7 @@ Importing this module pulls in playwright (a module-level import), but no
 browser is ever launched -- the render path is not exercised here and every
 network call is stubbed.
 """
+import contextlib
 import io
 import os
 import sys
@@ -165,6 +166,36 @@ class DiscoverDedupTests(unittest.TestCase):
              mock.patch.object(w, "log", lambda *a, **k: None):
             out = w.discover()
         self.assertEqual([e["title"] for e in out], ["Data Intern"])
+
+
+class CliTests(unittest.TestCase):
+    def test_default_is_a_live_run(self):
+        args = w.parse_args([])
+        self.assertFalse(args.dry)
+        self.assertFalse(args.seed)
+
+    def test_dry_flag(self):
+        self.assertTrue(w.parse_args(["--dry"]).dry)
+
+    def test_seed_flag(self):
+        self.assertTrue(w.parse_args(["--seed"]).seed)
+
+    def _expect_exit(self, argv):
+        err = io.StringIO()
+        with contextlib.redirect_stderr(err), self.assertRaises(SystemExit) as cm:
+            w.parse_args(argv)
+        self.assertNotEqual(cm.exception.code, 0)
+        return err.getvalue()
+
+    def test_unknown_flag_is_rejected(self):
+        """A typo must not silently fall through to a live run that posts to Discord."""
+        self.assertIn("--dryrun", self._expect_exit(["--dryrun"]))
+
+    def test_dry_and_seed_are_mutually_exclusive(self):
+        self.assertIn("not allowed with", self._expect_exit(["--dry", "--seed"]))
+
+    def test_positional_junk_is_rejected(self):
+        self._expect_exit(["seed"])
 
 
 if __name__ == "__main__":
