@@ -319,7 +319,7 @@ def main():
     except Exception as ex:
         log(f"[error] header post failed: {ex}"); return
 
-    posted = 0
+    posted, failed = 0, set()
     for e in new_roles:
         try:
             mid = wl.post_embed(alerts, wl.make_embed({**e, "posted": today}))
@@ -331,13 +331,18 @@ def main():
             posted += 1
             time.sleep(0.3)
         except Exception as ex:
+            failed.add(e["_key"])
             log(f"[error] post '{e['_key']}': {repr(ex)[:140]}")
 
     add, tot = wl.update_tracker(new_roles, today)
-    state["seen"] = sorted(seen | {e["_key"] for e in uniq})
+    # A role counts as seen only once it has actually been announced. Marking a
+    # failed post as seen would bury that role permanently -- it is no longer
+    # "new" on the next run, so it would never be retried.
+    state["seen"] = sorted((seen | {e["_key"] for e in uniq}) - failed)
     wl.save_state(state)
     log(f"[done] posted {posted}/{len(new_roles)} new; tracker +{add} ({tot} total); "
-        f"{len(state['pending'])} pending reactions")
+        f"{len(state['pending'])} pending reactions"
+        + (f"; {len(failed)} failed, will retry next run" if failed else ""))
 
 
 if __name__ == "__main__":
