@@ -1,4 +1,24 @@
+# Scrape output + logs (regenerated every run)
 _scrape_out/
+
+# Secrets: local bot token / channel overrides, never commit
+_watcher_config.json
+.env
+
+# Partial files from an interrupted atomic write (watcher_lib._atomic_write).
+# A crashed run can leave one behind; it must never be committed as data.
+*.tmp.*
+
+# Python
 __pycache__/
 *.pyc
-_watcher_config.json
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
