@@ -1,1 +1,6 @@
-playwright
+# Runtime dependency for _daily_job_watcher.py only.
+# _reaction_poller.py and watcher_lib.py are stdlib-only by design, so the
+# 30-minute poll workflow installs nothing.
+# Bump deliberately: the browser build fetched by `playwright install` is
+# matched to this version.
+playwright==1.60.0
