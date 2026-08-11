@@ -9,7 +9,7 @@ Provides:
 Auth: bot token from env DISCORD_BOT_TOKEN (CI secret) or local _watcher_config.json {"bot_token": "..."}.
 Channel IDs: bot_config.json {"alerts_channel_id","starred_channel_id","poll_stale_days"}.
 """
-import os, sys, csv, json, time, datetime, urllib.request, urllib.parse, urllib.error
+import os, io, sys, csv, json, time, datetime, urllib.request, urllib.parse, urllib.error
 
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -37,6 +37,31 @@ def log(msg):
             f.write(line + "\n")
     except Exception:
         pass
+
+
+def _atomic_write(path, text):
+    """Write `text` to `path` atomically.
+
+    Serialise in full, fsync a temp file in the same directory, then os.replace()
+    over the target. os.replace is atomic on POSIX and Windows, so a reader -- or
+    the `git add` in the very next workflow step -- sees either the old file or
+    the complete new one, never a half-written prefix. Without this, a job killed
+    mid-write (Actions cancellation, the new timeout-minutes ceiling, a runner
+    eviction) can commit a truncated tracker or an unparseable state file.
+    """
+    tmp = f"{path}.tmp.{os.getpid()}"
+    try:
+        with open(tmp, "w", newline="", encoding="utf-8") as f:
+            f.write(text)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp, path)
+    except Exception:
+        try:
+            os.remove(tmp)
+        except OSError:
+            pass
+        raise
 
 
 def load_json(path, default):
@@ -154,10 +179,11 @@ def load_tracker():
 
 
 def _write_tracker(rows):
-    with open(TRACKER_CSV, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=TRACK_FIELDS); w.writeheader()
-        for r in rows.values():
-            w.writerow({k: r.get(k, "") for k in TRACK_FIELDS})
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=TRACK_FIELDS); w.writeheader()
+    for r in rows.values():
+        w.writerow({k: r.get(k, "") for k in TRACK_FIELDS})
+    _atomic_write(TRACKER_CSV, buf.getvalue())
     today = datetime.date.today().isoformat()
     vals = list(rows.values())
     dt = [r for r in vals if r.get("data_tech") == "yes"]
@@ -180,8 +206,7 @@ def _write_tracker(rows):
     md += [line(r) for r in sorted(other, key=lambda r: r["date_found"], reverse=True)] or ["_none yet_"]
     md += ["\n---", "_React in Discord (✅ interested · 📌 applied · ❌ skip) or edit the **status** "
            "column in `applications_tracker.csv`._"]
-    with open(TRACKER_MD, "w", encoding="utf-8") as f:
-        f.write("\n".join(md))
+    _atomic_write(TRACKER_MD, "\n".join(md))
 
 
 def update_tracker(entries, today):
@@ -218,5 +243,4 @@ def load_state():
 
 def save_state(state):
     state["last_run"] = datetime.datetime.now().isoformat(timespec="seconds")
-    with open(STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump(state, f, indent=2)
+    _atomic_write(STATE_FILE, json.dumps(state, indent=2))
