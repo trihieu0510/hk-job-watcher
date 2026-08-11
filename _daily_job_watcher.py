@@ -13,7 +13,7 @@ Run:   python _daily_job_watcher.py          (post new roles)
        python _daily_job_watcher.py --dry     (print only, no posting/state change)
        python _daily_job_watcher.py --seed    (baseline silently: tracker + seen, no posting)
 """
-import os, re, sys, time, datetime, json, urllib.request, urllib.parse
+import os, re, sys, time, datetime, json, urllib.request, urllib.parse, urllib.error
 from playwright.sync_api import sync_playwright
 import watcher_lib as wl
 
@@ -85,17 +85,41 @@ OTHER_CITY_RE = re.compile(r"\b(sydney|melbourne|london|singapore|tokyo|new york
                            r"chicago|bangalore|manila|jakarta|kuala lumpur|taipei|osaka)\b", re.I)
 
 
+def _http_request(req, attempts=3):
+    """Send `req` and return the body, retrying transient failures.
+
+    Worth retrying because of how a failure surfaces: discover() catches per
+    source and logs one line, so a single dropped connection costs that board's
+    entire listing for the day while the run still reports success. 5xx and
+    OSError (timeouts, resets, DNS blips) are retried with backoff; 4xx is not,
+    since a malformed request or a dead endpoint will fail identically on every
+    attempt and retrying only slows the run down.
+    """
+    last = None
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as ex:
+            if not 500 <= ex.code < 600:
+                raise
+            last = ex
+        except OSError as ex:
+            last = ex
+        if attempt + 1 < attempts:
+            time.sleep(min(2 ** attempt, 4))
+    raise last
+
+
 def http_get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", "replace")
+    return _http_request(urllib.request.Request(
+        url, headers={"User-Agent": UA, "Accept": "application/json"}))
 
 
 def http_post(url, body):
-    req = urllib.request.Request(url, data=json.dumps(body).encode("utf-8"), headers={
-        "User-Agent": UA, "Content-Type": "application/json", "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", "replace")
+    return _http_request(urllib.request.Request(
+        url, data=json.dumps(body).encode("utf-8"), headers={
+            "User-Agent": UA, "Content-Type": "application/json", "Accept": "application/json"}))
 
 
 # ---------------- fetchers: each returns [{title, location, url, source}] ----------------
@@ -213,8 +237,7 @@ def fetch_jobsdb(src):
         try:
             req = urllib.request.Request(url, headers={
                 "User-Agent": UA, "Accept": "application/json", "seek-request-country": "HK"})
-            with urllib.request.urlopen(req, timeout=30) as r:
-                j = json.loads(r.read().decode("utf-8", "replace"))
+            j = json.loads(_http_request(req))
         except Exception as e:
             log(f"[warn] JobsDB '{kw}': {repr(e)[:100]}"); continue
         for x in j.get("data", []):
