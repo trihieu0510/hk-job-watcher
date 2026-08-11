@@ -59,12 +59,18 @@ def main():
                 wl.log(f"[poll] {status}: {job['key']}")
                 handled.append(mid)
             else:
-                posted = job.get("posted", "")
                 try:
-                    if (today - datetime.date.fromisoformat(posted)).days > stale_days:
-                        handled.append(mid); wl.log(f"[poll] expired (no reaction): {job['key']}")
-                except Exception:
-                    pass
+                    age = (today - datetime.date.fromisoformat(job.get("posted") or "")).days
+                except (ValueError, TypeError):
+                    age = None
+                if age is None:
+                    # No usable posted date. Stamp today so the entry can age out on a
+                    # later run -- otherwise it is never stale, never dropped, and gets
+                    # re-polled (3 Discord calls) every 30 minutes forever.
+                    job["posted"] = today.isoformat()
+                    wl.log(f"[poll] no posted date, backfilled: {job['key']}")
+                elif age > stale_days:
+                    handled.append(mid); wl.log(f"[poll] expired (no reaction): {job['key']}")
             time.sleep(0.25)
         except Exception as ex:
             wl.log(f"[poll][error] msg {mid}: {repr(ex)[:140]}")
