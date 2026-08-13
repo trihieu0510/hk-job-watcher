@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-08-12
+# 📋 Job Tracker — updated 2026-08-13
 
-Total **111**  ·  🟢 Data/Tech **43**  ·  ⭐ Starred/Applied **11**
+Total **115**  ·  🟢 Data/Tech **46**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,9 @@ Total **111**  ·  🟢 Data/Tech **43**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Quant Research Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941208101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-13)
+-  [Software Engineer Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941206101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-13)
+-  [Equity Derivatives - Quantitative Researcher - Intern](https://hk.jobsdb.com/job/93938375) — **JobsDB** · Hong Kong SAR · _new_ (found 2026-08-13)
 -  [Software Engineer (Computer Vision) (Fresh Graduate is welcome)](https://hk.jobsdb.com/job/93743354) — **JobsDB** · Tsing Yi, Kwai Tsing District · _new_ (found 2026-08-05)
 -  [2027 Summer Internship - Group Technology Office - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348128) — **UBS** · HK · _new_ (found 2026-08-05)
 -  [2027 Off-cycle Internship - Global Research - Mainland China](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348576) — **UBS** · HK · _new_ (found 2026-08-03)
@@ -61,6 +64,7 @@ Total **111**  ·  🟢 Data/Tech **43**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [Trader Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941205101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-13)
 -  [Business Analyst Trainee  (5-day work, 15-20K) (IANG/Fresh Graduate Welcomed)](https://hk.jobsdb.com/job/93869270) — **JobsDB** · Kwun Tong, Kwun Tong District · _new_ (found 2026-08-12)
 -  [Banking - Commercial Banking, Summer Analyst, Hong Kong – APAC, 2027](https://citi.wd5.myworkdayjobs.com/en-US/2/job/Kowloon--Hong-Kong/Banking---Commercial-Banking--Summer-Analyst--Hong-Kong---APAC--2027_26985455) — **Citi** · Kowloon  Hong Kong · _new_ (found 2026-08-11)
 -  [GSC: Junior Product Controller - Intern](https://mycareer.hsbc.com/en_GB/external/PipelineDetail/GSC-Junior-Product-Controller-Intern/288672) — **HSBC** · HK · _new_ (found 2026-08-08)
