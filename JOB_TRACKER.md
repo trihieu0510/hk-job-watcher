@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-08-13
+# 📋 Job Tracker — updated 2026-08-14
 
-Total **115**  ·  🟢 Data/Tech **46**  ·  ⭐ Starred/Applied **11**
+Total **117**  ·  🟢 Data/Tech **46**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -64,6 +64,8 @@ Total **115**  ·  🟢 Data/Tech **46**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [Intern (Transformation & Automation, Compliance APAC) (Part-time)](https://hk.jobsdb.com/job/93952558) — **JobsDB** · Quarry Bay, Eastern District · _new_ (found 2026-08-14)
+-  [Terminal Planning Analyst Trainee (2-year contract)](https://hk.jobsdb.com/job/93960980) — **JobsDB** · Kwai Chung, Kwai Tsing District · _new_ (found 2026-08-14)
 -  [Trader Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941205101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-13)
 -  [Business Analyst Trainee  (5-day work, 15-20K) (IANG/Fresh Graduate Welcomed)](https://hk.jobsdb.com/job/93869270) — **JobsDB** · Kwun Tong, Kwun Tong District · _new_ (found 2026-08-12)
 -  [Banking - Commercial Banking, Summer Analyst, Hong Kong – APAC, 2027](https://citi.wd5.myworkdayjobs.com/en-US/2/job/Kowloon--Hong-Kong/Banking---Commercial-Banking--Summer-Analyst--Hong-Kong---APAC--2027_26985455) — **Citi** · Kowloon  Hong Kong · _new_ (found 2026-08-11)

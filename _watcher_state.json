@@ -45,6 +45,7 @@
     "JobsDB|data product manager ba (internship \u00b7 financial ai direction)",
     "JobsDB|equity derivatives - quantitative researcher - intern",
     "JobsDB|human resources trainee (data analytics focus)",
+    "JobsDB|intern (transformation & automation, compliance apac) (part-time)",
     "JobsDB|intern data analytics (6-month, part-time)",
     "JobsDB|junior data scientist (welcome fresh graduate)",
     "JobsDB|quantitative research & development intern",
@@ -56,6 +57,7 @@
     "JobsDB|software engineer intern",
     "JobsDB|stem intern (summer) \uff0d ai \u6559\u80b2\u79d1\u6280",
     "JobsDB|summer intern",
+    "JobsDB|terminal planning analyst trainee (2-year contract)",
     "JobsDB|trainee (focus on product development & risk management)",
     "Jump Trading|campus ai/ml researcher (fall 2026)",
     "Jump Trading|campus ai/ml researcher (spring 2026 / fall 2026)",
@@ -296,7 +298,25 @@
       "location": "Hong Kong, Hong Kong",
       "data_tech": false,
       "posted": "2026-08-13"
+    },
+    "1537627572857475073": {
+      "key": "JobsDB|intern (transformation & automation, compliance apac) (part-time)",
+      "title": "Intern (Transformation & Automation, Compliance APAC) (Part-time)",
+      "url": "https://hk.jobsdb.com/job/93952558",
+      "source": "JobsDB",
+      "location": "Quarry Bay, Eastern District",
+      "data_tech": false,
+      "posted": "2026-08-14"
+    },
+    "1537627581766045817": {
+      "key": "JobsDB|terminal planning analyst trainee (2-year contract)",
+      "title": "Terminal Planning Analyst Trainee (2-year contract)",
+      "url": "https://hk.jobsdb.com/job/93960980",
+      "source": "JobsDB",
+      "location": "Kwai Chung, Kwai Tsing District",
+      "data_tech": false,
+      "posted": "2026-08-14"
     }
   },
-  "last_run": "2026-08-13T23:43:26"
+  "last_run": "2026-08-14T01:03:05"
 }
