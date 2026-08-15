@@ -121,15 +121,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1532565899549216839": {
-      "key": "JobsDB|backend developer (5-day work, fresh graduate will be considered)",
-      "title": "Backend Developer (5-day work, Fresh graduate will be considered)",
-      "url": "https://hk.jobsdb.com/job/93662975",
-      "source": "JobsDB",
-      "location": "Yau Tsim Mong District",
-      "data_tech": true,
-      "posted": "2026-07-31"
-    },
     "1532928693792411659": {
       "key": "HSBC|intern commercial and institutional banking coverage (24-month fixed-term contract)",
       "title": "Intern Commercial and Institutional Banking Coverage (24-month Fixed-Term Contract)",
@@ -338,5 +329,5 @@
       "posted": "2026-08-15"
     }
   },
-  "last_run": "2026-08-15T00:38:07"
+  "last_run": "2026-08-15T01:21:04"
 }
