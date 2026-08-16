@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-08-15
+# 📋 Job Tracker — updated 2026-08-16
 
-Total **119**  ·  🟢 Data/Tech **47**  ·  ⭐ Starred/Applied **11**
+Total **121**  ·  🟢 Data/Tech **48**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **119**  ·  🟢 Data/Tech **47**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [2027 Graduate Talent Program – Global Research - Mainland China](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349949) — **UBS** · HK · _new_ (found 2026-08-16)
 -  [Quantitative Analyst - Commodities Investment Team (Summer Internship)](https://hk.jobsdb.com/job/93993544) — **JobsDB** · Hong Kong SAR · _new_ (found 2026-08-15)
 -  [Quant Research Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941208101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-13)
 -  [Software Engineer Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941206101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-13)
@@ -65,6 +66,7 @@ Total **119**  ·  🟢 Data/Tech **47**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [2027 Graduate Talent Program - Global Banking - Mainland China](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349950) — **UBS** · HK · _new_ (found 2026-08-16)
 -  [Intern - Business Analyst  @Qeelin of Kering Group](https://hk.jobsdb.com/job/93987223) — **JobsDB** · Wan Chai District · _new_ (found 2026-08-15)
 -  [Intern (Transformation & Automation, Compliance APAC) (Part-time)](https://hk.jobsdb.com/job/93952558) — **JobsDB** · Quarry Bay, Eastern District · _new_ (found 2026-08-14)
 -  [Terminal Planning Analyst Trainee (2-year contract)](https://hk.jobsdb.com/job/93960980) — **JobsDB** · Kwai Chung, Kwai Tsing District · _new_ (found 2026-08-14)
