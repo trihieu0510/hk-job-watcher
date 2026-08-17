@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-08-16
+# 📋 Job Tracker — updated 2026-08-17
 
-Total **121**  ·  🟢 Data/Tech **48**  ·  ⭐ Starred/Applied **11**
+Total **133**  ·  🟢 Data/Tech **49**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **121**  ·  🟢 Data/Tech **48**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [2027 Graduate Talent Program - Group Technology Office - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348135) — **UBS** · HK · _new_ (found 2026-08-17)
 -  [2027 Graduate Talent Program – Global Research - Mainland China](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349949) — **UBS** · HK · _new_ (found 2026-08-16)
 -  [Quantitative Analyst - Commodities Investment Team (Summer Internship)](https://hk.jobsdb.com/job/93993544) — **JobsDB** · Hong Kong SAR · _new_ (found 2026-08-15)
 -  [Quant Research Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941208101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-13)
@@ -66,6 +67,17 @@ Total **121**  ·  🟢 Data/Tech **48**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [2027 Graduate Talent Program - GIC Change Management - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347432) — **UBS** · HK · _new_ (found 2026-08-17)
+-  [2027 Graduate Talent Program - GIC Solutions - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347434) — **UBS** · HK · _new_ (found 2026-08-17)
+-  [2027 Graduate Talent Program - Global Markets - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349868) — **UBS** · HK · _new_ (found 2026-08-17)
+-  [2027 Graduate Talent Program - Global Markets - Taiwan](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349872) — **UBS** · HK · _new_ (found 2026-08-17)
+-  [2027 Graduate Talent Program - Group Internal Audit - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347383) — **UBS** · HK · _new_ (found 2026-08-17)
+-  [2027 Graduate Talent Program - Group Real Estate and Supply Chain - HK](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347435) — **UBS** · HK · _new_ (found 2026-08-17)
+-  [2027 Graduate Talent Program – Global Wealth Management, CIO – SG](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347301) — **UBS** · HK · _new_ (found 2026-08-17)
+-  [2027 Graduate Talent Program – Global Wealth Management, COO – HK](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347299) — **UBS** · HK · _new_ (found 2026-08-17)
+-  [2027 Graduate Talent Program – Global Wealth Management, COO – SG](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347300) — **UBS** · HK · _new_ (found 2026-08-17)
+-  [2027 Graduate Talent Program – Global Wealth Management, GIM – SG](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347304) — **UBS** · HK · _new_ (found 2026-08-17)
+-  [2027 Graduate Talent Program – Global Wealth Management, Marketing– SG](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347303) — **UBS** · HK · _new_ (found 2026-08-17)
 -  [2027 Graduate Talent Program - Global Banking - Mainland China](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349950) — **UBS** · HK · _new_ (found 2026-08-16)
 -  [Intern - Business Analyst  @Qeelin of Kering Group](https://hk.jobsdb.com/job/93987223) — **JobsDB** · Wan Chai District · _new_ (found 2026-08-15)
 -  [Intern (Transformation & Automation, Compliance APAC) (Part-time)](https://hk.jobsdb.com/job/93952558) — **JobsDB** · Quarry Bay, Eastern District · _new_ (found 2026-08-14)
