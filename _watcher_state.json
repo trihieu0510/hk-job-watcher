@@ -135,42 +135,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1533653092279648298": {
-      "key": "UBS|2027 off-cycle internship - global research - mainland china",
-      "title": "2027 Off-cycle Internship - Global Research - Mainland China",
-      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348576",
-      "source": "UBS",
-      "location": "",
-      "data_tech": true,
-      "posted": "2026-08-03"
-    },
-    "1533653101947654255": {
-      "key": "Jefferies|2026 equities sales and trading graduate analyst program \u2013 hong kong",
-      "title": "2026 Equities Sales and Trading Graduate Analyst Program \u2013 Hong Kong",
-      "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-959a49e7d8f7/candidate/so/pm/1/pl/2/opp/1901-2026-Equities-Sales-and-Trading-Graduate-Analyst-Program-Hong-Kong/en-GB",
-      "source": "Jefferies",
-      "location": "",
-      "data_tech": false,
-      "posted": "2026-08-03"
-    },
-    "1533653110596043026": {
-      "key": "UBS|2027 off-cycle internship - global banking - mainland china",
-      "title": "2027 Off-Cycle Internship - Global Banking - Mainland China",
-      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349467",
-      "source": "UBS",
-      "location": "",
-      "data_tech": false,
-      "posted": "2026-08-03"
-    },
-    "1533653119559536831": {
-      "key": "UBS|2027 summer internship - global banking - mainland china",
-      "title": "2027 Summer Internship - Global Banking - Mainland China",
-      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349466",
-      "source": "UBS",
-      "location": "",
-      "data_tech": false,
-      "posted": "2026-08-03"
-    },
     "1534373013003305052": {
       "key": "JobsDB|software engineer (computer vision) (fresh graduate is welcome)",
       "title": "Software Engineer (Computer Vision) (Fresh Graduate is welcome)",
@@ -460,5 +424,5 @@
       "posted": "2026-08-17"
     }
   },
-  "last_run": "2026-08-18T00:40:40"
+  "last_run": "2026-08-18T01:20:27"
 }
