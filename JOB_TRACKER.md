@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-08-21
+# 📋 Job Tracker — updated 2026-08-22
 
-Total **136**  ·  🟢 Data/Tech **52**  ·  ⭐ Starred/Applied **11**
+Total **137**  ·  🟢 Data/Tech **53**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **136**  ·  🟢 Data/Tech **52**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Data Analysis Intern, Banking, 3 months full-time (12K, Welcome Yr3/4, FG!)](https://hk.jobsdb.com/job/94124303) — **JobsDB** · Quarry Bay, Eastern District · _new_ (found 2026-08-22)
 -  [Quantitative Research Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941208101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-20)
 -  [Quantitative Trader Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941205101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-20)
 -  [Data Science - Internship](https://hk.jobsdb.com/job/94081870) — **JobsDB** · Quarry Bay, Eastern District · _new_ (found 2026-08-20)
