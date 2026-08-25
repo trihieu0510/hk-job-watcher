@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-08-24
+# 📋 Job Tracker — updated 2026-08-25
 
-Total **137**  ·  🟢 Data/Tech **53**  ·  ⭐ Starred/Applied **11**
+Total **144**  ·  🟢 Data/Tech **58**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,11 @@ Total **137**  ·  🟢 Data/Tech **53**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Campus AI/ML Researcher ](https://www.jumptrading.com/hr/job?gh_jid=8027938) — **Jump Trading** · Shanghai; Singapore; Hong Kong · _new_ (found 2026-08-25)
+-  [Campus Quantitative Researcher (Intern)](https://www.jumptrading.com/hr/job?gh_jid=8027900) — **Jump Trading** · Hong Kong, Shanghai · _new_ (found 2026-08-25)
+-  [Campus Quantitative Trader (Intern)](https://www.jumptrading.com/hr/job?gh_jid=8027922) — **Jump Trading** · Hong Kong, Shanghai · _new_ (found 2026-08-25)
+-  [2027 Graduate Talent Program - Global Research - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350169) — **UBS** · HK · _new_ (found 2026-08-25)
+-  [2027 Graduate Talent Program - Global Research - Taiwan](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350174) — **UBS** · HK · _new_ (found 2026-08-25)
 -  [Data Analysis Intern, Banking, 3 months full-time (12K, Welcome Yr3/4, FG!)](https://hk.jobsdb.com/job/94124303) — **JobsDB** · Quarry Bay, Eastern District · _new_ (found 2026-08-22)
 -  [Quantitative Research Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941208101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-20)
 -  [Quantitative Trader Intern 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4941205101) — **IMC** · Hong Kong, Hong Kong · _new_ (found 2026-08-20)
@@ -71,6 +76,8 @@ Total **137**  ·  🟢 Data/Tech **53**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [Wealth - Citigold, Summer Analyst, Hong Kong, 2027](https://citi.wd5.myworkdayjobs.com/en-US/2/job/Hong-Kong--Hong-Kong/Wealth---Citigold--Summer-Analyst--Hong-Kong--2027_26988474) — **Citi** · Hong Kong  Hong Kong · _new_ (found 2026-08-25)
+-  [Wealth - Private Bank, Summer Analyst, Hong Kong, 2027](https://citi.wd5.myworkdayjobs.com/en-US/2/job/Hong-Kong--Hong-Kong/Wealth---Private-Bank--Summer-Analyst--Hong-Kong--2027_26988478) — **Citi** · Hong Kong  Hong Kong · _new_ (found 2026-08-25)
 -  [2027 Graduate Talent Program - GIC Change Management - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347432) — **UBS** · HK · _new_ (found 2026-08-17)
 -  [2027 Graduate Talent Program - GIC Solutions - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347434) — **UBS** · HK · _new_ (found 2026-08-17)
 -  [2027 Graduate Talent Program - Global Markets - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349868) — **UBS** · HK · _new_ (found 2026-08-17)
