@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-08-27
+# 📋 Job Tracker — updated 2026-08-28
 
-Total **148**  ·  🟢 Data/Tech **60**  ·  ⭐ Starred/Applied **11**
+Total **149**  ·  🟢 Data/Tech **60**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -78,6 +78,7 @@ Total **148**  ·  🟢 Data/Tech **60**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [Junior Business Analyst (Graduate Program)](https://hk.jobsdb.com/job/94272778) — **JobsDB** · Central and Western District · _new_ (found 2026-08-28)
 -  [2027 Graduate Talent Program - GCORC, Business Facing Compliance - SG](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350252) — **UBS** · HK · _new_ (found 2026-08-26)
 -  [2027 Graduate Talent Program - GCORC, Financial Crime Prevention - SG](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347386) — **UBS** · HK · _new_ (found 2026-08-26)
 -  [Wealth - Citigold, Summer Analyst, Hong Kong, 2027](https://citi.wd5.myworkdayjobs.com/en-US/2/job/Hong-Kong--Hong-Kong/Wealth---Citigold--Summer-Analyst--Hong-Kong--2027_26988474) — **Citi** · Hong Kong  Hong Kong · _new_ (found 2026-08-25)
