@@ -153,24 +153,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1537983679232737351": {
-      "key": "JobsDB|quantitative analyst - commodities investment team (summer internship)",
-      "title": "Quantitative Analyst - Commodities Investment Team (Summer Internship)",
-      "url": "https://hk.jobsdb.com/job/93993544",
-      "source": "JobsDB",
-      "location": "Hong Kong SAR",
-      "data_tech": true,
-      "posted": "2026-08-15"
-    },
-    "1537983688095178903": {
-      "key": "JobsDB|intern - business analyst @qeelin of kering group",
-      "title": "Intern - Business Analyst  @Qeelin of Kering Group",
-      "url": "https://hk.jobsdb.com/job/93987223",
-      "source": "JobsDB",
-      "location": "Wan Chai District",
-      "data_tech": false,
-      "posted": "2026-08-15"
-    },
     "1538346518266777623": {
       "key": "UBS|2027 graduate talent program \u2013 global research - mainland china",
       "title": "2027 Graduate Talent Program \u2013 Global Research - Mainland China",
@@ -460,5 +442,5 @@
       "posted": "2026-08-29"
     }
   },
-  "last_run": "2026-08-29T23:04:36"
+  "last_run": "2026-08-30T01:31:31"
 }
