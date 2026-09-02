@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-09-01
+# 📋 Job Tracker — updated 2026-09-02
 
-Total **152**  ·  🟢 Data/Tech **62**  ·  ⭐ Starred/Applied **11**
+Total **153**  ·  🟢 Data/Tech **63**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **152**  ·  🟢 Data/Tech **62**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Fixed Income Investment Intern (AI Enhancement) 固定收益投资实习岗（AI赋能）](https://hk.jobsdb.com/job/94335591) — **JobsDB** · Central, Central and Western District · _new_ (found 2026-09-02)
 -  [Campus AI/ML Researcher (Intern)](https://www.jumptrading.com/hr/job?gh_jid=8027938) — **Jump Trading** · Hong Kong; Shanghai; Singapore · _new_ (found 2026-08-29)
 -  [Campus Quantitative Researcher (Off-Cycle - Winter/Spring 2027 Intern) ](https://www.jumptrading.com/hr/job?gh_jid=8027898) — **Jump Trading** · Hong Kong; Shanghai · _new_ (found 2026-08-29)
 -  [Full Stack Developer Intern](https://hk.jobsdb.com/job/94217797) — **JobsDB** · Science Park, Tai Po District · _new_ (found 2026-08-27)
