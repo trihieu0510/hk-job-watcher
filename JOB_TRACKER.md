@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-09-02
+# 📋 Job Tracker — updated 2026-09-03
 
-Total **153**  ·  🟢 Data/Tech **63**  ·  ⭐ Starred/Applied **11**
+Total **154**  ·  🟢 Data/Tech **63**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -81,6 +81,7 @@ Total **153**  ·  🟢 Data/Tech **63**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [CS Experience Study & Pricing Strategy, Intern](https://hk.jobsdb.com/job/94380421) — **JobsDB** · Hong Kong Island · _new_ (found 2026-09-03)
 -  [Business Intelligence Intern](https://hk.jobsdb.com/job/94307414) — **JobsDB** · Lok Ma Chau, Yuen Long District · _new_ (found 2026-09-01)
 -  [Junior Business Analyst (Graduate Program)](https://hk.jobsdb.com/job/94272778) — **JobsDB** · Central and Western District · _new_ (found 2026-08-28)
 -  [2027 Graduate Talent Program - GCORC, Business Facing Compliance - SG](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350252) — **UBS** · HK · _new_ (found 2026-08-26)
