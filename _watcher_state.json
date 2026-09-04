@@ -62,6 +62,7 @@
     "JobsDB|junior data scientist (welcome fresh graduate)",
     "JobsDB|quantitative analyst - commodities investment team (summer internship)",
     "JobsDB|quantitative research & development intern",
+    "JobsDB|quantitative researcher intern",
     "JobsDB|robotics software engineer (intern)",
     "JobsDB|software development and system analyst graduate trainee",
     "JobsDB|software engineer (c / c++ preferred) (fresh graduate / iang holder is welcome)",
@@ -142,6 +143,7 @@
     "UBS|2027 off-cycle internship - global wealth management, coo - sg",
     "UBS|2027 off-cycle internship - global wealth management, marketing - sg",
     "UBS|2027 off-cycle internship - global wealth management, solutions - hk",
+    "UBS|2027 off-cycle internship - investment bank quants - hong kong",
     "UBS|2027 off-cycle internship program - global markets - thailand",
     "UBS|2027 summer internship - asset management - hong kong",
     "UBS|2027 summer internship - gic change management - hong kong",
@@ -317,7 +319,25 @@
       "location": "Hong Kong Island",
       "data_tech": false,
       "posted": "2026-09-03"
+    },
+    "1545250763633070171": {
+      "key": "JobsDB|quantitative researcher intern",
+      "title": "Quantitative Researcher Intern",
+      "url": "https://hk.jobsdb.com/job/94401803",
+      "source": "JobsDB",
+      "location": "Hong Kong SAR",
+      "data_tech": true,
+      "posted": "2026-09-04"
+    },
+    "1545250772504150027": {
+      "key": "UBS|2027 off-cycle internship - investment bank quants - hong kong",
+      "title": "2027 Off-Cycle Internship - Investment Bank Quants - Hong Kong",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350660",
+      "source": "UBS",
+      "location": "",
+      "data_tech": true,
+      "posted": "2026-09-04"
     }
   },
-  "last_run": "2026-09-04T01:15:02"
+  "last_run": "2026-09-04T01:54:55"
 }
