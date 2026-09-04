@@ -156,33 +156,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1539795629583376408": {
-      "key": "IMC|quantitative research intern 2027",
-      "title": "Quantitative Research Intern 2027",
-      "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941208101",
-      "source": "IMC",
-      "location": "Hong Kong, Hong Kong",
-      "data_tech": true,
-      "posted": "2026-08-20"
-    },
-    "1539795641092280462": {
-      "key": "IMC|quantitative trader intern 2027",
-      "title": "Quantitative Trader Intern 2027",
-      "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941205101",
-      "source": "IMC",
-      "location": "Hong Kong, Hong Kong",
-      "data_tech": true,
-      "posted": "2026-08-20"
-    },
-    "1539795655302586439": {
-      "key": "JobsDB|data science - internship",
-      "title": "Data Science - Internship",
-      "url": "https://hk.jobsdb.com/job/94081870",
-      "source": "JobsDB",
-      "location": "Quarry Bay, Eastern District",
-      "data_tech": true,
-      "posted": "2026-08-20"
-    },
     "1540520406128005272": {
       "key": "JobsDB|data analysis intern, banking, 3 months full-time (12k, welcome yr3/4, fg!)",
       "title": "Data Analysis Intern, Banking, 3 months full-time (12K, Welcome Yr3/4, FG!)",
@@ -346,5 +319,5 @@
       "posted": "2026-09-03"
     }
   },
-  "last_run": "2026-09-03T23:27:45"
+  "last_run": "2026-09-04T01:15:02"
 }
