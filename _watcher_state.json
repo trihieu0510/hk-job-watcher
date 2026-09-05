@@ -34,6 +34,7 @@
     "Jefferies|2027 summer analyst program - investment banking - hong kong",
     "JobsDB|2026-2027 business consultant internship (internship program)",
     "JobsDB|ai fintech developer (trainee/intern)",
+    "JobsDB|ai investment\u2011research system develop (full time/intern)",
     "JobsDB|ai-native creator (junior / fresh graduate)",
     "JobsDB|aia business consultant, full-time / intern",
     "JobsDB|analyst, multi-asset investment (quantitative, fresh graduate welcome)",
@@ -107,7 +108,9 @@
     "UBS|2027 graduate talent program - gcorc, financial crime prevention - sg",
     "UBS|2027 graduate talent program - gic change management - hong kong",
     "UBS|2027 graduate talent program - gic solutions - hong kong",
+    "UBS|2027 graduate talent program - global banking - hong kong",
     "UBS|2027 graduate talent program - global banking - mainland china",
+    "UBS|2027 graduate talent program - global banking - philippines",
     "UBS|2027 graduate talent program - global markets - hong kong",
     "UBS|2027 graduate talent program - global markets - taiwan",
     "UBS|2027 graduate talent program - global research - hong kong",
@@ -337,7 +340,34 @@
       "location": "",
       "data_tech": true,
       "posted": "2026-09-04"
+    },
+    "1545613468454097048": {
+      "key": "JobsDB|ai investment\u2011research system develop (full time/intern)",
+      "title": "AI Investment\u2011Research System Develop (full time/intern)",
+      "url": "https://hk.jobsdb.com/job/94421451",
+      "source": "JobsDB",
+      "location": "Central and Western District",
+      "data_tech": true,
+      "posted": "2026-09-05"
+    },
+    "1545613477756797100": {
+      "key": "UBS|2027 graduate talent program - global banking - hong kong",
+      "title": "2027 Graduate Talent Program - Global Banking - Hong Kong",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349902",
+      "source": "UBS",
+      "location": "",
+      "data_tech": false,
+      "posted": "2026-09-05"
+    },
+    "1545613491384221797": {
+      "key": "UBS|2027 graduate talent program - global banking - philippines",
+      "title": "2027 Graduate Talent Program - Global Banking - Philippines",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350692",
+      "source": "UBS",
+      "location": "",
+      "data_tech": false,
+      "posted": "2026-09-05"
     }
   },
-  "last_run": "2026-09-05T01:18:02"
+  "last_run": "2026-09-05T01:56:15"
 }
