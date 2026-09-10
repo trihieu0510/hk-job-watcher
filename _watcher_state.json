@@ -2,6 +2,10 @@
   "seen": [
     "Amazon|business development intern, aws",
     "Amazon|technical business developer intern, 2026 hong kong",
+    "Bybit|[intern] big data development engineer intern",
+    "Bybit|[intern] test development engineer intern",
+    "Bybit|[intern] test development engineer intern \uff08trading engine\uff09",
+    "Bybit|big data development engineer intern",
     "Citi|banking - capital markets, summer analyst, hong kong \u2013 apac, 2027",
     "Citi|banking - commercial banking, summer analyst, hong kong \u2013 apac, 2027",
     "Citi|banking - corporate banking, summer analyst, hong kong \u2013 apac, 2027",
@@ -288,7 +292,43 @@
       "location": "Quarry Bay, Eastern District",
       "data_tech": true,
       "posted": "2026-09-08"
+    },
+    "1547426526415429686": {
+      "key": "Bybit|big data development engineer intern",
+      "title": "Big Data Development Engineer Intern",
+      "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971690101",
+      "source": "Bybit",
+      "location": "Hong Kong SAR",
+      "data_tech": true,
+      "posted": "2026-09-10"
+    },
+    "1547426536842461185": {
+      "key": "Bybit|[intern] big data development engineer intern",
+      "title": "[Intern] Big Data Development Engineer Intern",
+      "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971692101",
+      "source": "Bybit",
+      "location": "Hong Kong SAR",
+      "data_tech": true,
+      "posted": "2026-09-10"
+    },
+    "1547426544870494274": {
+      "key": "Bybit|[intern] test development engineer intern",
+      "title": "[Intern] Test Development Engineer Intern",
+      "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971608101",
+      "source": "Bybit",
+      "location": "Hong Kong SAR; Kuala Lumpur, Malaysia",
+      "data_tech": true,
+      "posted": "2026-09-10"
+    },
+    "1547426553585999983": {
+      "key": "Bybit|[intern] test development engineer intern \uff08trading engine\uff09",
+      "title": "[Intern] Test Development Engineer Intern \uff08Trading Engine\uff09",
+      "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971452101",
+      "source": "Bybit",
+      "location": "Hong Kong SAR; Kuala Lumpur, Malaysia",
+      "data_tech": true,
+      "posted": "2026-09-10"
     }
   },
-  "last_run": "2026-09-10T01:22:36"
+  "last_run": "2026-09-10T02:00:42"
 }
