@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-09-11
+# 📋 Job Tracker — updated 2026-09-12
 
-Total **165**  ·  🟢 Data/Tech **72**  ·  ⭐ Starred/Applied **11**
+Total **168**  ·  🟢 Data/Tech **75**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,9 @@ Total **165**  ·  🟢 Data/Tech **72**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [AI Development Engineer Intern](https://job-boards.eu.greenhouse.io/bybit/jobs/4974271101) — **Bybit** · Hong Kong SAR · _new_ (found 2026-09-12)
+-  [Smart Contract Security Audit Intern (AI Audit)](https://job-boards.eu.greenhouse.io/bybit/jobs/4974605101) — **Bybit** · APAC - Remote; Hong Kong SAR · _new_ (found 2026-09-12)
+-  [Data Analysis Trainee, Banking, full-time (Welcome FG!)](https://hk.jobsdb.com/job/94124303) — **JobsDB** · Quarry Bay, Eastern District · _new_ (found 2026-09-12)
 -  [Big Data Development Engineer Intern](https://job-boards.eu.greenhouse.io/bybit/jobs/4971690101) — **Bybit** · Hong Kong SAR · _new_ (found 2026-09-10)
 -  [[Intern] Big Data Development Engineer Intern](https://job-boards.eu.greenhouse.io/bybit/jobs/4971692101) — **Bybit** · Hong Kong SAR · _new_ (found 2026-09-10)
 -  [[Intern] Test Development Engineer Intern](https://job-boards.eu.greenhouse.io/bybit/jobs/4971608101) — **Bybit** · Hong Kong SAR; Kuala Lumpur, Malaysia · _new_ (found 2026-09-10)
