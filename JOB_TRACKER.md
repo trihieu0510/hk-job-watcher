@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-09-14
+# 📋 Job Tracker — updated 2026-09-15
 
-Total **169**  ·  🟢 Data/Tech **76**  ·  ⭐ Starred/Applied **11**
+Total **171**  ·  🟢 Data/Tech **78**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,8 @@ Total **169**  ·  🟢 Data/Tech **76**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [2027 Markets Quantitative Trading & Research Analyst Program – Off-Cycle Internship - Hong Kong](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784371/) — **JPMorgan** · Hong Kong · _new_ (found 2026-09-15)
+-  [2027 Markets Quantitative Trading & Research Associate Program – Off-Cycle Internship - Hong Kong](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784369/) — **JPMorgan** · Hong Kong · _new_ (found 2026-09-15)
 -  [Data Scientist - 4-Month Internship/Co-op (Winter or Summer2027)Winter 2027](https://hk.jobsdb.com/job/94588056) — **JobsDB** · New Territories · _new_ (found 2026-09-13)
 -  [AI Development Engineer Intern](https://job-boards.eu.greenhouse.io/bybit/jobs/4974271101) — **Bybit** · Hong Kong SAR · _new_ (found 2026-09-12)
 -  [Smart Contract Security Audit Intern (AI Audit)](https://job-boards.eu.greenhouse.io/bybit/jobs/4974605101) — **Bybit** · APAC - Remote; Hong Kong SAR · _new_ (found 2026-09-12)
