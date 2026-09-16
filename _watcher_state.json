@@ -173,15 +173,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1544173132032643093": {
-      "key": "JobsDB|business intelligence intern",
-      "title": "Business Intelligence Intern",
-      "url": "https://hk.jobsdb.com/job/94307414",
-      "source": "JobsDB",
-      "location": "Lok Ma Chau, Yuen Long District",
-      "data_tech": false,
-      "posted": "2026-09-01"
-    },
     "1544525960358006818": {
       "key": "JobsDB|fixed income investment intern (ai enhancement) \u56fa\u5b9a\u6536\u76ca\u6295\u8d44\u5b9e\u4e60\u5c97\uff08ai\u8d4b\u80fd\uff09",
       "title": "Fixed Income Investment Intern (AI Enhancement) \u56fa\u5b9a\u6536\u76ca\u6295\u8d44\u5b9e\u4e60\u5c97\uff08AI\u8d4b\u80fd\uff09",
@@ -354,5 +345,5 @@
       "posted": "2026-09-15"
     }
   },
-  "last_run": "2026-09-15T23:30:18"
+  "last_run": "2026-09-16T01:36:32"
 }
