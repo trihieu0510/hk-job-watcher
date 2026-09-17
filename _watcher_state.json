@@ -57,6 +57,7 @@
     "JobsDB|business intelligence intern",
     "JobsDB|consulting - financial risk management - fall internship (full time)",
     "JobsDB|cs experience study & pricing strategy, intern",
+    "JobsDB|customer analytics & value management (welcome fresh graduate)",
     "JobsDB|data analysis intern, banking, 3 months full-time (12k, welcome yr3/4, fg!)",
     "JobsDB|data analysis trainee, banking, full-time (welcome fg!)",
     "JobsDB|data annotation - university student intern (sep-dec)",
@@ -343,7 +344,16 @@
       "location": "Hong Kong",
       "data_tech": true,
       "posted": "2026-09-15"
+    },
+    "1549968085648416850": {
+      "key": "JobsDB|customer analytics & value management (welcome fresh graduate)",
+      "title": "Customer Analytics & Value Management (Welcome Fresh Graduate)",
+      "url": "https://hk.jobsdb.com/job/94671080",
+      "source": "JobsDB",
+      "location": "Causeway Bay, Wan Chai District",
+      "data_tech": true,
+      "posted": "2026-09-17"
     }
   },
-  "last_run": "2026-09-16T23:38:31"
+  "last_run": "2026-09-17T02:19:50"
 }
