@@ -174,15 +174,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1544525960358006818": {
-      "key": "JobsDB|fixed income investment intern (ai enhancement) \u56fa\u5b9a\u6536\u76ca\u6295\u8d44\u5b9e\u4e60\u5c97\uff08ai\u8d4b\u80fd\uff09",
-      "title": "Fixed Income Investment Intern (AI Enhancement) \u56fa\u5b9a\u6536\u76ca\u6295\u8d44\u5b9e\u4e60\u5c97\uff08AI\u8d4b\u80fd\uff09",
-      "url": "https://hk.jobsdb.com/job/94335591",
-      "source": "JobsDB",
-      "location": "Central, Central and Western District",
-      "data_tech": true,
-      "posted": "2026-09-02"
-    },
     "1544889785628495923": {
       "key": "JobsDB|cs experience study & pricing strategy, intern",
       "title": "CS Experience Study & Pricing Strategy, Intern",
@@ -355,5 +346,5 @@
       "posted": "2026-09-17"
     }
   },
-  "last_run": "2026-09-17T02:19:50"
+  "last_run": "2026-09-17T03:58:59"
 }
