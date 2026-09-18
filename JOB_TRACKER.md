@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-09-17
+# 📋 Job Tracker — updated 2026-09-18
 
-Total **172**  ·  🟢 Data/Tech **79**  ·  ⭐ Starred/Applied **11**
+Total **175**  ·  🟢 Data/Tech **82**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,9 @@ Total **172**  ·  🟢 Data/Tech **79**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [2027 Equity Research Summer Analyst Program - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-83f570f2ce4c/candidate/so/pm/1/pl/2/opp/1984-2027-Equity-Research-Summer-Analyst-Program-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-09-18)
+-  [2027 Quantitative Research Intern (DV Equities)](https://hk.jobsdb.com/job/94706725) — **JobsDB** · Hong Kong SAR · _new_ (found 2026-09-18)
+-  [Data Engineering Graduate Programme  (November Start Date)](https://hk.jobsdb.com/job/94700829) — **JobsDB** · Admiralty, Central and Western District · _new_ (found 2026-09-18)
 -  [Customer Analytics & Value Management (Welcome Fresh Graduate)](https://hk.jobsdb.com/job/94671080) — **JobsDB** · Causeway Bay, Wan Chai District · _new_ (found 2026-09-17)
 -  [2027 Markets Quantitative Trading & Research Analyst Program – Off-Cycle Internship - Hong Kong](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784371/) — **JPMorgan** · Hong Kong · _new_ (found 2026-09-15)
 -  [2027 Markets Quantitative Trading & Research Associate Program – Off-Cycle Internship - Hong Kong](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784369/) — **JPMorgan** · Hong Kong · _new_ (found 2026-09-15)
