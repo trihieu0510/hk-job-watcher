@@ -177,24 +177,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1545250763633070171": {
-      "key": "JobsDB|quantitative researcher intern",
-      "title": "Quantitative Researcher Intern",
-      "url": "https://hk.jobsdb.com/job/94401803",
-      "source": "JobsDB",
-      "location": "Hong Kong SAR",
-      "data_tech": true,
-      "posted": "2026-09-04"
-    },
-    "1545250772504150027": {
-      "key": "UBS|2027 off-cycle internship - investment bank quants - hong kong",
-      "title": "2027 Off-Cycle Internship - Investment Bank Quants - Hong Kong",
-      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350660",
-      "source": "UBS",
-      "location": "",
-      "data_tech": true,
-      "posted": "2026-09-04"
-    },
     "1545613468454097048": {
       "key": "JobsDB|ai investment\u2011research system develop (full time/intern)",
       "title": "AI Investment\u2011Research System Develop (full time/intern)",
@@ -367,5 +349,5 @@
       "posted": "2026-09-18"
     }
   },
-  "last_run": "2026-09-18T23:07:06"
+  "last_run": "2026-09-19T01:27:21"
 }
