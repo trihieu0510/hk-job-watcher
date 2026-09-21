@@ -177,15 +177,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1545974413558816849": {
-      "key": "JobsDB|quantitative trader - 2027 graduate (dv equities)",
-      "title": "Quantitative Trader - 2027 Graduate (DV Equities)",
-      "url": "https://hk.jobsdb.com/job/94439354",
-      "source": "JobsDB",
-      "location": "Hong Kong SAR",
-      "data_tech": true,
-      "posted": "2026-09-06"
-    },
     "1546701270134554715": {
       "key": "JobsDB|2026 internship-assurance-technology risk and data analytics - hong kong",
       "title": "2026 Internship-Assurance-Technology Risk and Data Analytics - Hong Kong",
@@ -322,5 +313,5 @@
       "posted": "2026-09-18"
     }
   },
-  "last_run": "2026-09-20T22:40:48"
+  "last_run": "2026-09-21T00:54:49"
 }
