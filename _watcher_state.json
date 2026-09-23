@@ -100,6 +100,8 @@
     "Jump Trading|campus quantitative researcher (off-cycle - winter/spring 2027 intern)",
     "Jump Trading|campus quantitative trader (intern)",
     "Jump Trading|campus trading team software engineer (intern)",
+    "Lalamove|global trainee program 2027",
+    "Lalamove|global trainee program 2027 (hong kong based)",
     "Lalamove|graduate software engineer - class of 2026 (frontend)",
     "Lalamove|information security specialist (part time internship)",
     "Morgan Stanley|2027 finance summer analyst program (hong kong)",
@@ -312,7 +314,25 @@
       "location": "Quarry Bay, Eastern District",
       "data_tech": false,
       "posted": "2026-09-22"
+    },
+    "1552142705444786251": {
+      "key": "Lalamove|global trainee program 2027",
+      "title": "Global Trainee Program 2027",
+      "url": "https://jobs.lever.co/lalamove/01ea2a58-4e9d-441b-ae65-3e25de4244ad",
+      "source": "Lalamove",
+      "location": "Hong Kong SAR",
+      "data_tech": false,
+      "posted": "2026-09-23"
+    },
+    "1552142714408140914": {
+      "key": "Lalamove|global trainee program 2027 (hong kong based)",
+      "title": "Global Trainee Program 2027 (Hong Kong based)",
+      "url": "https://jobs.lever.co/lalamove/a70d88d9-5120-4c7b-abbb-fa1a30276271",
+      "source": "Lalamove",
+      "location": "Kuala Lumpur",
+      "data_tech": false,
+      "posted": "2026-09-23"
     }
   },
-  "last_run": "2026-09-23T01:41:17"
+  "last_run": "2026-09-23T02:21:02"
 }
