@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-09-24
+# 📋 Job Tracker — updated 2026-09-25
 
-Total **179**  ·  🟢 Data/Tech **83**  ·  ⭐ Starred/Applied **11**
+Total **181**  ·  🟢 Data/Tech **84**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **179**  ·  🟢 Data/Tech **83**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [AI System and Application Engineer（Intern）](https://hk.jobsdb.com/job/94805112) — **JobsDB** · Hong Kong Island · _new_ (found 2026-09-25)
 -  [Technology Research Intern – MarTech & AI (Part-time)](https://hk.jobsdb.com/job/94834920) — **JobsDB** · Cheung Sha Wan, Sham Shui Po District · _new_ (found 2026-09-24)
 -  [2027 Equity Research Summer Analyst Program - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-83f570f2ce4c/candidate/so/pm/1/pl/2/opp/1984-2027-Equity-Research-Summer-Analyst-Program-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-09-18)
 -  [2027 Quantitative Research Intern (DV Equities)](https://hk.jobsdb.com/job/94706725) — **JobsDB** · Hong Kong SAR · _new_ (found 2026-09-18)
@@ -101,6 +102,7 @@ Total **179**  ·  🟢 Data/Tech **83**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [2027 Equities Sales & Trading Summer Analyst Program - Prime Services - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5369bad94887/candidate/so/pm/1/pl/2/opp/1992-2027-Equities-Sales-Trading-Summer-Analyst-Program-Prime-Services-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-09-25)
 -  [Global Trainee Program 2027](https://jobs.lever.co/lalamove/01ea2a58-4e9d-441b-ae65-3e25de4244ad) — **Lalamove** · Hong Kong SAR · _new_ (found 2026-09-23)
 -  [Global Trainee Program 2027 (Hong Kong based)](https://jobs.lever.co/lalamove/a70d88d9-5120-4c7b-abbb-fa1a30276271) — **Lalamove** · Kuala Lumpur · _new_ (found 2026-09-23)
 -  [DFIQ Insights Solutions Intern (Part Time)](https://hk.jobsdb.com/job/94769451) — **JobsDB** · Quarry Bay, Eastern District · _new_ (found 2026-09-22)
