@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-09-25
+# 📋 Job Tracker — updated 2026-09-26
 
-Total **181**  ·  🟢 Data/Tech **84**  ·  ⭐ Starred/Applied **11**
+Total **182**  ·  🟢 Data/Tech **85**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **181**  ·  🟢 Data/Tech **84**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [2027 Quantitative Researcher Graduate (DV Equities)](https://hk.jobsdb.com/job/94888535) — **JobsDB** · Hong Kong SAR · _new_ (found 2026-09-26)
 -  [AI System and Application Engineer（Intern）](https://hk.jobsdb.com/job/94805112) — **JobsDB** · Hong Kong Island · _new_ (found 2026-09-25)
 -  [Technology Research Intern – MarTech & AI (Part-time)](https://hk.jobsdb.com/job/94834920) — **JobsDB** · Cheung Sha Wan, Sham Shui Po District · _new_ (found 2026-09-24)
 -  [2027 Equity Research Summer Analyst Program - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-83f570f2ce4c/candidate/so/pm/1/pl/2/opp/1984-2027-Equity-Research-Summer-Analyst-Program-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-09-18)
