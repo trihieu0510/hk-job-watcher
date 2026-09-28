@@ -184,15 +184,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1548513116164464772": {
-      "key": "JobsDB|data scientist - 4-month internship/co-op (winter or summer2027)winter 2027",
-      "title": "Data Scientist - 4-Month Internship/Co-op (Winter or Summer2027)Winter 2027",
-      "url": "https://hk.jobsdb.com/job/94588056",
-      "source": "JobsDB",
-      "location": "New Territories",
-      "data_tech": true,
-      "posted": "2026-09-13"
-    },
     "1549243924076306554": {
       "key": "JPMorgan|2027 markets quantitative trading & research analyst program \u2013 off-cycle internship - hong kong",
       "title": "2027 Markets Quantitative Trading & Research Analyst Program \u2013 Off-Cycle Internship - Hong Kong",
@@ -311,5 +302,5 @@
       "posted": "2026-09-26"
     }
   },
-  "last_run": "2026-09-27T23:18:14"
+  "last_run": "2026-09-28T01:54:34"
 }
