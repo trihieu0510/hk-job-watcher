@@ -80,6 +80,7 @@
     "JobsDB|intern data analytics (6-month, part-time)",
     "JobsDB|junior business analyst (graduate program)",
     "JobsDB|junior data scientist (welcome fresh graduate)",
+    "JobsDB|part-time forward deployed engineer intern (university students welcome)",
     "JobsDB|quantitative analyst - commodities investment team (summer internship)",
     "JobsDB|quantitative research & development intern",
     "JobsDB|quantitative researcher intern",
@@ -300,7 +301,16 @@
       "location": "Hong Kong SAR",
       "data_tech": true,
       "posted": "2026-09-26"
+    },
+    "1554330032149757983": {
+      "key": "JobsDB|part-time forward deployed engineer intern (university students welcome)",
+      "title": "Part-time Forward Deployed Engineer Intern (University Students Welcome)",
+      "url": "https://hk.jobsdb.com/job/94927343",
+      "source": "JobsDB",
+      "location": "Kowloon Bay, Kwun Tong District",
+      "data_tech": true,
+      "posted": "2026-09-29"
     }
   },
-  "last_run": "2026-09-29T02:13:44"
+  "last_run": "2026-09-29T03:12:39"
 }
