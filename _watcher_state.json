@@ -187,24 +187,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1549243924076306554": {
-      "key": "JPMorgan|2027 markets quantitative trading & research analyst program \u2013 off-cycle internship - hong kong",
-      "title": "2027 Markets Quantitative Trading & Research Analyst Program \u2013 Off-Cycle Internship - Hong Kong",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784371/",
-      "source": "JPMorgan",
-      "location": "Hong Kong",
-      "data_tech": true,
-      "posted": "2026-09-15"
-    },
-    "1549243932528083005": {
-      "key": "JPMorgan|2027 markets quantitative trading & research associate program \u2013 off-cycle internship - hong kong",
-      "title": "2027 Markets Quantitative Trading & Research Associate Program \u2013 Off-Cycle Internship - Hong Kong",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784369/",
-      "source": "JPMorgan",
-      "location": "Hong Kong",
-      "data_tech": true,
-      "posted": "2026-09-15"
-    },
     "1549968085648416850": {
       "key": "JobsDB|customer analytics & value management (welcome fresh graduate)",
       "title": "Customer Analytics & Value Management (Welcome Fresh Graduate)",
@@ -332,5 +314,5 @@
       "posted": "2026-09-30"
     }
   },
-  "last_run": "2026-09-30T02:55:04"
+  "last_run": "2026-09-30T04:35:59"
 }
