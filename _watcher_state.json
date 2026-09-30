@@ -1,5 +1,6 @@
 {
   "seen": [
+    "Amazon|associate solutions architect intern, hong kong",
     "Amazon|business development intern, aws",
     "Amazon|technical business developer intern, 2026 hong kong",
     "Bybit|[intern] big data development engineer intern",
@@ -78,6 +79,7 @@
     "JobsDB|intern (transformation & automation, compliance apac) (part-time)",
     "JobsDB|intern - business analyst @qeelin of kering group",
     "JobsDB|intern data analytics (6-month, part-time)",
+    "JobsDB|intern, business intelligence",
     "JobsDB|junior business analyst (graduate program)",
     "JobsDB|junior data scientist (welcome fresh graduate)",
     "JobsDB|part-time forward deployed engineer intern (university students welcome)",
@@ -310,7 +312,25 @@
       "location": "Kowloon Bay, Kwun Tong District",
       "data_tech": true,
       "posted": "2026-09-29"
+    },
+    "1554687980617338925": {
+      "key": "Amazon|associate solutions architect intern, hong kong",
+      "title": "Associate Solutions Architect Intern, Hong Kong",
+      "url": "https://www.amazon.jobs/en/jobs/10563358/associate-solutions-architect-intern-hong-kong",
+      "source": "Amazon",
+      "location": "Hong Kong, Hong Kong SAR, HKG",
+      "data_tech": false,
+      "posted": "2026-09-30"
+    },
+    "1554687992721838153": {
+      "key": "JobsDB|intern, business intelligence",
+      "title": "Intern, Business Intelligence",
+      "url": "https://hk.jobsdb.com/job/94948014",
+      "source": "JobsDB",
+      "location": "North Point, Eastern District",
+      "data_tech": false,
+      "posted": "2026-09-30"
     }
   },
-  "last_run": "2026-09-29T23:54:58"
+  "last_run": "2026-09-30T02:55:04"
 }
