@@ -74,6 +74,7 @@
     "JobsDB|dfiq insights solutions intern (part time)",
     "JobsDB|equity derivatives - quantitative researcher - intern",
     "JobsDB|fixed income investment intern (ai enhancement) \u56fa\u5b9a\u6536\u76ca\u6295\u8d44\u5b9e\u4e60\u5c97\uff08ai\u8d4b\u80fd\uff09",
+    "JobsDB|fresh graduate software engineer /electronic engineering manager(urgent )",
     "JobsDB|full stack developer intern",
     "JobsDB|human resources trainee (data analytics focus)",
     "JobsDB|intern (transformation & automation, compliance apac) (part-time)",
@@ -312,7 +313,16 @@
       "location": "North Point, Eastern District",
       "data_tech": false,
       "posted": "2026-09-30"
+    },
+    "1555051906676686969": {
+      "key": "JobsDB|fresh graduate software engineer /electronic engineering manager(urgent )",
+      "title": "Fresh Graduate Software Engineer /Electronic Engineering Manager(Urgent )",
+      "url": "https://hk.jobsdb.com/job/94983267",
+      "source": "JobsDB",
+      "location": "Wong Chuk Hang, Southern District",
+      "data_tech": true,
+      "posted": "2026-10-01"
     }
   },
-  "last_run": "2026-10-01T00:43:34"
+  "last_run": "2026-10-01T03:01:07"
 }
