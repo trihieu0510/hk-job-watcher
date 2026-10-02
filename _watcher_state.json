@@ -188,15 +188,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1549968085648416850": {
-      "key": "JobsDB|customer analytics & value management (welcome fresh graduate)",
-      "title": "Customer Analytics & Value Management (Welcome Fresh Graduate)",
-      "url": "https://hk.jobsdb.com/job/94671080",
-      "source": "JobsDB",
-      "location": "Causeway Bay, Wan Chai District",
-      "data_tech": true,
-      "posted": "2026-09-17"
-    },
     "1550326898670698497": {
       "key": "Jefferies|2027 equity research summer analyst program - hong kong",
       "title": "2027 Equity Research Summer Analyst Program - Hong Kong",
@@ -324,5 +315,5 @@
       "posted": "2026-10-01"
     }
   },
-  "last_run": "2026-10-02T03:03:41"
+  "last_run": "2026-10-02T04:38:42"
 }
