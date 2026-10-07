@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-10-06
+# 📋 Job Tracker — updated 2026-10-07
 
-Total **187**  ·  🟢 Data/Tech **87**  ·  ⭐ Starred/Applied **11**
+Total **189**  ·  🟢 Data/Tech **89**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,8 @@ Total **187**  ·  🟢 Data/Tech **87**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Campus C++ Software Engineer (Intern)](https://www.jumptrading.com/hr/job?gh_jid=8027860) — **Jump Trading** · Hong Kong; Shanghai · _new_ (found 2026-10-07)
+-  [Campus Python Software Engineer (Intern)](https://www.jumptrading.com/hr/job?gh_jid=8027923) — **Jump Trading** · Hong Kong; Shanghai · _new_ (found 2026-10-07)
 -  [Fresh Graduate Software Engineer /Electronic Engineering Manager(Urgent )](https://hk.jobsdb.com/job/94983267) — **JobsDB** · Wong Chuk Hang, Southern District · _new_ (found 2026-10-01)
 -  [Part-time Forward Deployed Engineer Intern (University Students Welcome)](https://hk.jobsdb.com/job/94927343) — **JobsDB** · Kowloon Bay, Kwun Tong District · _new_ (found 2026-09-29)
 -  [2027 Quantitative Researcher Graduate (DV Equities)](https://hk.jobsdb.com/job/94888535) — **JobsDB** · Hong Kong SAR · _new_ (found 2026-09-26)
