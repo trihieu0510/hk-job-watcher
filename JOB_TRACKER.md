@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-10-08
+# 📋 Job Tracker — updated 2026-10-09
 
-Total **191**  ·  🟢 Data/Tech **90**  ·  ⭐ Starred/Applied **11**
+Total **195**  ·  🟢 Data/Tech **91**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **191**  ·  🟢 Data/Tech **90**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Analyst (Intern), AI Development](https://hk.jobsdb.com/job/95144941) — **JobsDB** · Kowloon Tong, Kowloon City District · _new_ (found 2026-10-09)
 -  [KPMG 2026-27 Technology-Strategy and Delivery Internship - Hong Kong](https://hk.jobsdb.com/job/95130487) — **JobsDB** · Wong Chuk Hang, Southern District · _new_ (found 2026-10-08)
 -  [Campus C++ Software Engineer (Intern)](https://www.jumptrading.com/hr/job?gh_jid=8027860) — **Jump Trading** · Hong Kong; Shanghai · _new_ (found 2026-10-07)
 -  [Campus Python Software Engineer (Intern)](https://www.jumptrading.com/hr/job?gh_jid=8027923) — **Jump Trading** · Hong Kong; Shanghai · _new_ (found 2026-10-07)
@@ -108,6 +109,9 @@ Total **191**  ·  🟢 Data/Tech **90**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [Intern Performance Management Global Logistics, Digital Process Management](https://hk.jobsdb.com/job/95135728) — **JobsDB** · Kwun Tong District · _new_ (found 2026-10-09)
+-  [Intern, Cyber Security](https://hk.jobsdb.com/job/95159161) — **JobsDB** · Kowloon Tong, Kowloon City District · _new_ (found 2026-10-09)
+-  [Project Intern/Part-time, FICC Middle Office Support](https://hk.jobsdb.com/job/95160556) — **JobsDB** · Central, Central and Western District · _new_ (found 2026-10-09)
 -  [Winter internship 2026 - CITIC Pacific Youth Program](https://hk.jobsdb.com/job/95132173) — **JobsDB** · Eastern District · _new_ (found 2026-10-08)
 -  [2027 Equities Sales & Trading Summer Analyst Program - Cash Trading - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a1b34a09900b/candidate/so/pm/1/pl/2/opp/1997-2027-Equities-Sales-Trading-Summer-Analyst-Program-Cash-Trading-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-10-05)
 -  [Associate Solutions Architect Intern, Hong Kong](https://www.amazon.jobs/en/jobs/10563358/associate-solutions-architect-intern-hong-kong) — **Amazon** · Hong Kong, Hong Kong SAR, HKG · _new_ (found 2026-09-30)

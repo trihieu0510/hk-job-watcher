@@ -53,6 +53,7 @@
     "JobsDB|ai system and application engineer\uff08intern\uff09",
     "JobsDB|ai-native creator (junior / fresh graduate)",
     "JobsDB|aia business consultant, full-time / intern",
+    "JobsDB|analyst (intern), ai development",
     "JobsDB|analyst, multi-asset investment (quantitative, fresh graduate welcome)",
     "JobsDB|artificial intelligence (ai) intern",
     "JobsDB|backend developer (5-day work, fresh graduate will be considered)",
@@ -81,11 +82,14 @@
     "JobsDB|intern (transformation & automation, compliance apac) (part-time)",
     "JobsDB|intern - business analyst @qeelin of kering group",
     "JobsDB|intern data analytics (6-month, part-time)",
+    "JobsDB|intern performance management global logistics, digital process management",
     "JobsDB|intern, business intelligence",
+    "JobsDB|intern, cyber security",
     "JobsDB|junior business analyst (graduate program)",
     "JobsDB|junior data scientist (welcome fresh graduate)",
     "JobsDB|kpmg 2026-27 technology-strategy and delivery internship - hong kong",
     "JobsDB|part-time forward deployed engineer intern (university students welcome)",
+    "JobsDB|project intern/part-time, ficc middle office support",
     "JobsDB|quantitative analyst - commodities investment team (summer internship)",
     "JobsDB|quantitative research & development intern",
     "JobsDB|quantitative researcher intern",
@@ -300,7 +304,43 @@
       "location": "Eastern District",
       "data_tech": false,
       "posted": "2026-10-08"
+    },
+    "1557959545681223691": {
+      "key": "JobsDB|analyst (intern), ai development",
+      "title": "Analyst (Intern), AI Development",
+      "url": "https://hk.jobsdb.com/job/95144941",
+      "source": "JobsDB",
+      "location": "Kowloon Tong, Kowloon City District",
+      "data_tech": true,
+      "posted": "2026-10-09"
+    },
+    "1557959555638362213": {
+      "key": "JobsDB|intern performance management global logistics, digital process management",
+      "title": "Intern Performance Management Global Logistics, Digital Process Management",
+      "url": "https://hk.jobsdb.com/job/95135728",
+      "source": "JobsDB",
+      "location": "Kwun Tong District",
+      "data_tech": false,
+      "posted": "2026-10-09"
+    },
+    "1557959565692243970": {
+      "key": "JobsDB|intern, cyber security",
+      "title": "Intern, Cyber Security",
+      "url": "https://hk.jobsdb.com/job/95159161",
+      "source": "JobsDB",
+      "location": "Kowloon Tong, Kowloon City District",
+      "data_tech": false,
+      "posted": "2026-10-09"
+    },
+    "1557959576190451793": {
+      "key": "JobsDB|project intern/part-time, ficc middle office support",
+      "title": "Project Intern/Part-time, FICC Middle Office Support",
+      "url": "https://hk.jobsdb.com/job/95160556",
+      "source": "JobsDB",
+      "location": "Central, Central and Western District",
+      "data_tech": false,
+      "posted": "2026-10-09"
     }
   },
-  "last_run": "2026-10-09T00:12:03"
+  "last_run": "2026-10-09T03:35:10"
 }
