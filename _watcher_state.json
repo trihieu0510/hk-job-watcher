@@ -193,15 +193,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1552501825368887367": {
-      "key": "JobsDB|technology research intern \u2013 martech & ai (part-time)",
-      "title": "Technology Research Intern \u2013 MarTech & AI (Part-time)",
-      "url": "https://hk.jobsdb.com/job/94834920",
-      "source": "JobsDB",
-      "location": "Cheung Sha Wan, Sham Shui Po District",
-      "data_tech": true,
-      "posted": "2026-09-24"
-    },
     "1552868522827186251": {
       "key": "JobsDB|ai system and application engineer\uff08intern\uff09",
       "title": "AI System and Application Engineer\uff08Intern\uff09",
@@ -311,5 +302,5 @@
       "posted": "2026-10-08"
     }
   },
-  "last_run": "2026-10-08T19:46:33"
+  "last_run": "2026-10-09T00:12:03"
 }
