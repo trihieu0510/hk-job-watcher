@@ -197,15 +197,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1553231913827835925": {
-      "key": "JobsDB|2027 quantitative researcher graduate (dv equities)",
-      "title": "2027 Quantitative Researcher Graduate (DV Equities)",
-      "url": "https://hk.jobsdb.com/job/94888535",
-      "source": "JobsDB",
-      "location": "Hong Kong SAR",
-      "data_tech": true,
-      "posted": "2026-09-26"
-    },
     "1554330032149757983": {
       "key": "JobsDB|part-time forward deployed engineer intern (university students welcome)",
       "title": "Part-time Forward Deployed Engineer Intern (University Students Welcome)",
@@ -324,5 +315,5 @@
       "posted": "2026-10-09"
     }
   },
-  "last_run": "2026-10-11T02:48:28"
+  "last_run": "2026-10-11T04:41:21"
 }
