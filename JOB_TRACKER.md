@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-10-13
+# 📋 Job Tracker — updated 2026-10-14
 
-Total **196**  ·  🟢 Data/Tech **91**  ·  ⭐ Starred/Applied **11**
+Total **197**  ·  🟢 Data/Tech **92**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **196**  ·  🟢 Data/Tech **91**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Engineering Trainee, Process AI & Data Analyst (Based in Jiangmen)](https://hk.jobsdb.com/job/95239285) — **JobsDB** · Sha Tin District · _new_ (found 2026-10-14)
 -  [Analyst (Intern), AI Development](https://hk.jobsdb.com/job/95144941) — **JobsDB** · Kowloon Tong, Kowloon City District · _new_ (found 2026-10-09)
 -  [KPMG 2026-27 Technology-Strategy and Delivery Internship - Hong Kong](https://hk.jobsdb.com/job/95130487) — **JobsDB** · Wong Chuk Hang, Southern District · _new_ (found 2026-10-08)
 -  [Campus C++ Software Engineer (Intern)](https://www.jumptrading.com/hr/job?gh_jid=8027860) — **Jump Trading** · Hong Kong; Shanghai · _new_ (found 2026-10-07)
