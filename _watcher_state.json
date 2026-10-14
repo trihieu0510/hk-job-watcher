@@ -198,15 +198,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1554330032149757983": {
-      "key": "JobsDB|part-time forward deployed engineer intern (university students welcome)",
-      "title": "Part-time Forward Deployed Engineer Intern (University Students Welcome)",
-      "url": "https://hk.jobsdb.com/job/94927343",
-      "source": "JobsDB",
-      "location": "Kowloon Bay, Kwun Tong District",
-      "data_tech": true,
-      "posted": "2026-09-29"
-    },
     "1554687980617338925": {
       "key": "Amazon|associate solutions architect intern, hong kong",
       "title": "Associate Solutions Architect Intern, Hong Kong",
@@ -325,5 +316,5 @@
       "posted": "2026-10-12"
     }
   },
-  "last_run": "2026-10-13T23:01:29"
+  "last_run": "2026-10-14T02:05:16"
 }
