@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-10-14
+# 📋 Job Tracker — updated 2026-10-15
 
-Total **197**  ·  🟢 Data/Tech **92**  ·  ⭐ Starred/Applied **11**
+Total **198**  ·  🟢 Data/Tech **92**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -110,6 +110,7 @@ Total **197**  ·  🟢 Data/Tech **92**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [Procurement Assistant / Business Analyst - fresh graduate](https://hk.jobsdb.com/job/95277265) — **JobsDB** · Central, Central and Western District · _new_ (found 2026-10-15)
 -  [68K System Analyst /35-39K Analyst Programmer /Programmer - Fresh graduate](https://hk.jobsdb.com/job/95196328) — **JobsDB** · Central, Central and Western District · _new_ (found 2026-10-12)
 -  [Intern Performance Management Global Logistics, Digital Process Management](https://hk.jobsdb.com/job/95135728) — **JobsDB** · Kwun Tong District · _new_ (found 2026-10-09)
 -  [Intern, Cyber Security](https://hk.jobsdb.com/job/95159161) — **JobsDB** · Kowloon Tong, Kowloon City District · _new_ (found 2026-10-09)
