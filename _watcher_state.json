@@ -200,15 +200,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1555051906676686969": {
-      "key": "JobsDB|fresh graduate software engineer /electronic engineering manager(urgent )",
-      "title": "Fresh Graduate Software Engineer /Electronic Engineering Manager(Urgent )",
-      "url": "https://hk.jobsdb.com/job/94983267",
-      "source": "JobsDB",
-      "location": "Wong Chuk Hang, Southern District",
-      "data_tech": true,
-      "posted": "2026-10-01"
-    },
     "1556500392286879846": {
       "key": "Jefferies|2027 equities sales & trading summer analyst program - cash trading - hong kong",
       "title": "2027 Equities Sales & Trading Summer Analyst Program - Cash Trading - Hong Kong",
@@ -318,5 +309,5 @@
       "posted": "2026-10-15"
     }
   },
-  "last_run": "2026-10-15T22:35:52"
+  "last_run": "2026-10-16T01:02:25"
 }
