@@ -202,24 +202,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1557229453380292649": {
-      "key": "Jump Trading|campus c++ software engineer (intern)",
-      "title": "Campus C++ Software Engineer (Intern)",
-      "url": "https://www.jumptrading.com/hr/job?gh_jid=8027860",
-      "source": "Jump Trading",
-      "location": "Hong Kong; Shanghai",
-      "data_tech": true,
-      "posted": "2026-10-07"
-    },
-    "1557229461064126486": {
-      "key": "Jump Trading|campus python software engineer (intern)",
-      "title": "Campus Python Software Engineer (Intern)",
-      "url": "https://www.jumptrading.com/hr/job?gh_jid=8027923",
-      "source": "Jump Trading",
-      "location": "Hong Kong; Shanghai",
-      "data_tech": true,
-      "posted": "2026-10-07"
-    },
     "1557595840707698740": {
       "key": "JobsDB|kpmg 2026-27 technology-strategy and delivery internship - hong kong",
       "title": "KPMG 2026-27 Technology-Strategy and Delivery Internship - Hong Kong",
@@ -320,5 +302,5 @@
       "posted": "2026-10-20"
     }
   },
-  "last_run": "2026-10-21T21:23:27"
+  "last_run": "2026-10-22T00:08:01"
 }
