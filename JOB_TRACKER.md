@@ -1,6 +1,6 @@
-# 📋 Job Tracker — updated 2026-10-22
+# 📋 Job Tracker — updated 2026-10-23
 
-Total **200**  ·  🟢 Data/Tech **92**  ·  ⭐ Starred/Applied **11**
+Total **202**  ·  🟢 Data/Tech **93**  ·  ⭐ Starred/Applied **11**
 
 ## ⭐ Shortlist (interested / applied)
 - ⭐ [2026 Graduate Analyst Program - Equity Research - Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-08562d69e35a/candidate/so/pm/1/pl/2/opp/1813-2026-Graduate-Analyst-Program-Equity-Research-Hong-Kong/en-GB) — **Jefferies** · HK · _interested_ (found 2026-06-23)
@@ -16,6 +16,7 @@ Total **200**  ·  🟢 Data/Tech **92**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## 🟢 Data / Tech
+-  [Trading Infrastructure Specialist – Graduate Program](https://www.squarepoint-capital.com/open-opportunities?id=7757021&gh_jid=7757021) — **Squarepoint** · London, Montreal, Hong Kong, New York, Singapore · _new_ (found 2026-10-23)
 -  [Engineering Trainee, Process AI & Data Analyst (Based in Jiangmen)](https://hk.jobsdb.com/job/95239285) — **JobsDB** · Sha Tin District · _new_ (found 2026-10-14)
 -  [Analyst (Intern), AI Development](https://hk.jobsdb.com/job/95144941) — **JobsDB** · Kowloon Tong, Kowloon City District · _new_ (found 2026-10-09)
 -  [KPMG 2026-27 Technology-Strategy and Delivery Internship - Hong Kong](https://hk.jobsdb.com/job/95130487) — **JobsDB** · Wong Chuk Hang, Southern District · _new_ (found 2026-10-08)
@@ -110,6 +111,7 @@ Total **200**  ·  🟢 Data/Tech **92**  ·  ⭐ Starred/Applied **11**
 - ⭐ [Graduate Software Engineer - Class of 2026 (Frontend)](https://jobs.lever.co/lalamove/7cc84d81-9504-4171-a10f-250966a5523a) — **Lalamove** · Hong Kong SAR · _interested_ (found 2026-06-23)
 
 ## ⚪ Other early-career
+-  [2027 Equities Sales & Trading Summer Analyst – High Touch Trading – Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2018-2027-Equities-Sales-Trading-Summer-Analyst-High-Touch-Trading-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-10-23)
 -  [2027 Graduate Talent Program - Group Human Resources - Hong Kong](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352768) — **UBS** · HK · _new_ (found 2026-10-20)
 -  [2027 Equity Sales & Trading Summer Analyst – High Touch Trading – Hong Kong](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2018-2027-Equity-Sales-Trading-Summer-Analyst-High-Touch-Trading-Hong-Kong/en-GB) — **Jefferies** · HK · _new_ (found 2026-10-17)
 -  [Procurement Assistant / Business Analyst - fresh graduate](https://hk.jobsdb.com/job/95277265) — **JobsDB** · Central, Central and Western District · _new_ (found 2026-10-15)
