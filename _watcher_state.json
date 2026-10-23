@@ -202,24 +202,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1557595840707698740": {
-      "key": "JobsDB|kpmg 2026-27 technology-strategy and delivery internship - hong kong",
-      "title": "KPMG 2026-27 Technology-Strategy and Delivery Internship - Hong Kong",
-      "url": "https://hk.jobsdb.com/job/95130487",
-      "source": "JobsDB",
-      "location": "Wong Chuk Hang, Southern District",
-      "data_tech": true,
-      "posted": "2026-10-08"
-    },
-    "1557595851042455624": {
-      "key": "JobsDB|winter internship 2026 - citic pacific youth program",
-      "title": "Winter internship 2026 - CITIC Pacific Youth Program",
-      "url": "https://hk.jobsdb.com/job/95132173",
-      "source": "JobsDB",
-      "location": "Eastern District",
-      "data_tech": false,
-      "posted": "2026-10-08"
-    },
     "1557959545681223691": {
       "key": "JobsDB|analyst (intern), ai development",
       "title": "Analyst (Intern), AI Development",
@@ -302,5 +284,5 @@
       "posted": "2026-10-20"
     }
   },
-  "last_run": "2026-10-22T23:01:43"
+  "last_run": "2026-10-23T01:46:05"
 }
