@@ -204,15 +204,6 @@
     "UBS|internship (global research)"
   ],
   "pending": {
-    "1561930320318824460": {
-      "key": "UBS|2027 graduate talent program - group human resources - hong kong",
-      "title": "2027 Graduate Talent Program - Group Human Resources - Hong Kong",
-      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352768",
-      "source": "UBS",
-      "location": "",
-      "data_tech": false,
-      "posted": "2026-10-20"
-    },
     "1563016247371763793": {
       "key": "Squarepoint|trading infrastructure specialist \u2013 graduate program",
       "title": "Trading Infrastructure Specialist \u2013 Graduate Program",
@@ -232,5 +223,5 @@
       "posted": "2026-10-23"
     }
   },
-  "last_run": "2026-11-03T19:13:55"
+  "last_run": "2026-11-04T00:07:23"
 }
